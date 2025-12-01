@@ -1,0 +1,1 @@
+Para consumir apis con el hppt, se debe importar HttpClientModule en los imports de app.module.ts

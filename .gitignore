@@ -137,3 +137,8 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Ignorar configuración de espacio de trabajo local (caché, ventanas abiertas, etc.)
+.obsidian/workspace
+.obsidian/workspace.json
+.DS_Store
