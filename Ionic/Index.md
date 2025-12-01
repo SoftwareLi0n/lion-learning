@@ -1,1 +1,1 @@
-1. [Notas rápidas](Ionic/Notas.md)
+1. [Notas rápidas](./Notas.md)
