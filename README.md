@@ -1,4 +1,5 @@
 # lion-learning
 Apuntes en relación a la tecnologías que te pueden ayudar
 
-[IONIC](Ionic/Index.md)
+[Ionic](Ionic/Index.md)
+[Angular](Angular/Index)
