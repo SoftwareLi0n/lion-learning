@@ -1,1 +1,1 @@
-1. [Notas rápidas](./notas.md)
+1. [Notas rápidas](./Notas.md)
