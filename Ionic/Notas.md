@@ -1,5 +1,10 @@
 Para consumir apis con el hppt, se debe importar HttpClientModule en los imports de app.module.ts
 
+didDismiss se ejecuta cuando se cierra el modal, ya sea desde el hardware (botón atras) o desde el software (botón de la app)  
+```ts
+<ion-modal [isOpen]="modal_filtro" (didDismiss)="modal_filtro = false">
+```
+
 ## LiveReload
 1. Cargamos aplicación para que pueda ser accedido desde otros dispositivos.
 ```bash
