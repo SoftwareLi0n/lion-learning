@@ -29,3 +29,11 @@ const config: CapacitorConfig = {
 npx cap sync android
 npx cap run android
 ```
+
+## Generar apk
+```bash
+ionic build
+npm install @capacitor/android
+npx cap add android
+npx cap sync android
+```
