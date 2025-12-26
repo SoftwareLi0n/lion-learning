@@ -37,3 +37,45 @@ npm install @capacitor/android
 npx cap add android
 npx cap sync android
 ```
+
+## Build para iOS
+```bash
+ionic build
+npm install @capacitor/ios
+npx cap add ios
+```
+
+### Conseguir certificado
+* El certificado se puede reutilizar
+* El Identifiers & Profiles deben ser únicos por app
+
+Datos de Identifiers
+* Description: Nombre descriptivo (Mi Recibo)
+* Bundle ID: appId del archivo capacitor.config (com.softwarelion.mirecibo)
+
+Datos:
+Distribution: App Store Connect
+Provisioning Profile Name: (Perfil Mi Recibo)
+
+### Crear App - App Store
+* SKU: Codigo interno (MiRecibo)
+  
+### Generar build - AppFlow
+* Name: Nombre descriptivo
+* Apple ID: Correo de tu cuenta dev
+* App-specific password: Es la contraseñas de aplicación
+  https://account.apple.com/account/manage
+* App Apple ID: Es el "ID de Apple" de la aplicación, lo encuentras en "Información de la app"
+
+### Subir actualización
+* Cambiar de versión a la app y al build
+Archivo: ios/App/App/Info.plist
+```xml
+//La Versión Pública
+<key>CFBundleShortVersionString</key> 
+<string>1.0</string>
+
+// Nro build: Este es que no se puede subir igual
+<key>CFBundleVersion</key>
+<string>1</string>
+```

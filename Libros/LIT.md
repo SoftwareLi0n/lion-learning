@@ -12,3 +12,6 @@ El cerebro busca ahorrar energía evita pensar y se pone en "modo ahorro".
 El consumo de redes sociales hace que nuestro cerebro las convierta en hábitos rápidamente y estás promueven el CBE
 Te roba la energía y vives rutinariamente
 El cerebro eliminará las sinapsis menos usadas (te olvidarás de algunas cosas)
+
+* El cerebro tiene entre 86,000 y 100,000 millones de neuronas
+* 
