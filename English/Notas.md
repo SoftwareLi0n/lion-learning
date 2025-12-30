@@ -12,3 +12,5 @@ iPhone
 Glosario:
  * Want: desear
  * Just: justo
+ * Target: Objetivo
+ * Make: hacer

@@ -30,6 +30,15 @@ npx cap sync android
 npx cap run android
 ```
 
+## Problema de los CORS
+En el archivo de capacitor.config.ts agregar CapacitorHttp, convierte las peticiones del webview en nativas.
+```ts
+	plugins: {
+        CapacitorHttp: {
+            enabled: true
+        }
+    }
+```
 ## Generar apk
 ```bash
 ionic build
