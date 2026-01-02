@@ -14,3 +14,6 @@ Glosario:
  * Just: justo
  * Target: Objetivo
  * Make: hacer
+ * layer: capa
+ * our: nuestro
+ * assets: activos digitales
