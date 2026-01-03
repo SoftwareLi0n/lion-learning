@@ -29,3 +29,9 @@ BEGIN
 	END CATCH
 END
 ```
+
+## Evitar que se inserte valor duplicado en una columna
+```sql
+ALTER TABLE api_key
+ADD CONSTRAINT UQ_ApiKey UNIQUE (llave); -- la columna se llama "llave"
+```

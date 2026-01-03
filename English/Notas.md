@@ -17,3 +17,5 @@ Glosario:
  * layer: capa
  * our: nuestro
  * assets: activos digitales
+ * about: acerca de
+ * brief: breve
