@@ -3,3 +3,6 @@
 
 ## Chrome Extención
 * Tampermonkey: permite modifiar cualquier página web desde js
+
+## Web
+* https://www.netlify.com/: permite subir web de manera rápida.
