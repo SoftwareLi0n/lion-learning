@@ -19,3 +19,4 @@ Glosario:
  * assets: activos digitales
  * about: acerca de
  * brief: breve
+ * focused: enfocado
