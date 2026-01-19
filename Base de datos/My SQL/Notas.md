@@ -1,4 +1,12 @@
 
+## Manipular Base de datos
+Buscar table por nombre
+```mysql
+select *
+from information_schema.TABLES
+where table_name like '%detraccion%'
+```
+
 ## Manipulación de Tablas
 Mira la tabla usuario desde comando
 ```mysql
