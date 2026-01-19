@@ -21,3 +21,12 @@ Glosario:
  * brief: breve
  * focused: enfocado
  * constraints: restricciones
+ * set: conjunto (sustantivo)
+ * below: abajo
+ * bottom: abajo
+ * Sheets: Hoja
+ * lanzacohetes: lanzacohetes
+ * provides: proporciona
+ * standalone: autónomo
+ * outside: afuera
+ * Edge: borde
