@@ -28,3 +28,4 @@ Glosario:
  * provides: proporciona
  * standalone: autónomo
  * outside: afuera
+ * Edge: borde
