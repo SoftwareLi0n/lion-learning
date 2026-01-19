@@ -1,6 +1,6 @@
 Apuntes de códigos importantes en Angular
 
-1. Parámetros por URL
+### Parámetros por URL
 ```typescript
 // en la configuración de las rutas
 {
@@ -21,3 +21,8 @@ private route: ActivatedRoute
 const id = this.route.snapshot.paramMap.get('id');
 ```
 
+
+### Recibir parametros (modal componente)
+```typescript
+@Inject(MAT_DIALOG_DATA) public data: any // esto agregar en el constructor
+```

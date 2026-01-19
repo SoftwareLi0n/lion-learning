@@ -20,3 +20,11 @@ Glosario:
  * about: acerca de
  * brief: breve
  * focused: enfocado
+ * set: conjunto (sustantivo)
+ * below: abajo
+ * bottom: abajo
+ * Sheets: Hoja
+ * lanzacohetes: lanzacohetes
+ * provides: proporciona
+ * standalone: autónomo
+ * outside: afuera
