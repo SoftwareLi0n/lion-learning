@@ -20,3 +20,4 @@ Glosario:
  * about: acerca de
  * brief: breve
  * focused: enfocado
+ * constraints: restricciones
