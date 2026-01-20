@@ -21,6 +21,7 @@ Glosario:
  * brief: breve
  * focused: enfocado
  * focus: enfocar
+ * constraints: restricciones
  * set: conjunto (sustantivo)
  * below: abajo
  * bottom: abajo
