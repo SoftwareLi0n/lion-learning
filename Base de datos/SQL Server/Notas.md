@@ -35,3 +35,17 @@ END
 ALTER TABLE api_key
 ADD CONSTRAINT UQ_ApiKey UNIQUE (llave); -- la columna se llama "llave"
 ```
+
+## Agregar columna a una tabla
+
+1. Agregar columna
+```sql
+ALTER TABLE planes 
+ADD notificado BIT;
+```
+
+2. Eliminar columna
+```sql
+alter table planes 
+drop column notificado;
+```
