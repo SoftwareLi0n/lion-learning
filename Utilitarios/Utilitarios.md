@@ -10,3 +10,4 @@
 
 ## Desarrollo
 * **Azure Data Studio:** Sirve para gestionar db de mysql de una forma muy estética.
+* **Codeium:** Extensión alternativa de copilot
