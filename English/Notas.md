@@ -31,3 +31,4 @@ Glosario:
  * standalone: autónomo
  * outside: afuera
  * Edge: borde
+ * Engine: Motor
