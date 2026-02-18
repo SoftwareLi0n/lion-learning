@@ -68,3 +68,9 @@ SET _numero = (
 );
 ```
 
+
+Poder borrar aun que esté relacionada
+```bash
+SET FOREIGN_KEY_CHECKS = 0; -- deshabilita la seguridad
+SET FOREIGN_KEY_CHECKS = 1; -- deshabilita la seguridad
+```
