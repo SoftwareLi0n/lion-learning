@@ -31,3 +31,8 @@ Glosario:
  * standalone: autónomo
  * outside: afuera
  * Edge: borde
+ * Engine: Motor
+ * Keep: Mantener
+ * Undo: Deshacer
+ * shortcuts: atajos
+ * shrink: encoger
