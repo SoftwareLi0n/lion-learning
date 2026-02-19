@@ -17,3 +17,6 @@ App Windows
 ### Anydesk
 borrar
 C:\Users\Lion\AppData\Roaming\AnyDesk\system.conf
+
+renombrar (funciona)
+C:\ProgramData\AnyDesk\service.conf
