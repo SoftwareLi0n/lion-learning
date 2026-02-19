@@ -11,3 +11,9 @@
 ## Desarrollo
 * **Azure Data Studio:** Sirve para gestionar db de mysql de una forma muy estética.
 * **Codeium:** Extensión alternativa de copilot
+
+
+App Windows
+### Anydesk
+borrar
+C:\Users\Lion\AppData\Roaming\AnyDesk\system.conf
