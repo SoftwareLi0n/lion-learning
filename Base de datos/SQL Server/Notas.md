@@ -1,6 +1,7 @@
 # Notas rápidas
 
-## Tracciones en SQL Server
+## Procedimientos almacenados
+### Tracciones en SQL Server
 ```sql
 CREATE PROCEDURE nombre_procedimiento
 (
@@ -30,6 +31,10 @@ BEGIN
 END
 ```
 
+### Obtenemos el último id registrado
+```sql
+SCOPE_IDENTITY();
+```
 ## Evitar que se inserte valor duplicado en una columna
 ```sql
 ALTER TABLE api_key
