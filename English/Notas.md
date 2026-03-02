@@ -32,5 +32,12 @@ Glosario:
  * outside: afuera
  * Edge: borde
  * Engine: Motor
-* have: tener 
+* have: tener
+* was: era
+* principio: beginning
+* with: con
+* life: vida
+
+
+frases:
 
