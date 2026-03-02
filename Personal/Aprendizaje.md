@@ -10,9 +10,7 @@
 8. MCP
 9. n8n
 10. Cloud code
-
-
-## Proceso
-1. Pensar en otro Software (App citas - trabajo)
-2. Desarrollarla en redes
-3. Subirlo clips a tiktok
+11. Agent Skills
+12. Arquitectura de software
+	1. reverse proxy
+	2. https://youtu.be/cIcpq2smW-w
