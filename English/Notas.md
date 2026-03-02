@@ -37,7 +37,9 @@ Glosario:
 * principio: beginning
 * with: con
 * life: vida
-
+* live: vivir
+* light: luz
 
 frases:
+* there was: hubo
 
