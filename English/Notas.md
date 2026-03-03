@@ -39,6 +39,9 @@ Glosario:
 * life: vida
 * live: vivir
 * light: luz
+* things: cosas
+* were: fueron
+
 
 frases:
 * there was: hubo
