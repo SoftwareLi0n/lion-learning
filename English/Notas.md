@@ -34,7 +34,7 @@ Glosario:
  * Engine: Motor
 * have: tener
 * was: era
-* principio: beginning
+* beginning: principio
 * with: con
 * life: vida
 * live: vivir
