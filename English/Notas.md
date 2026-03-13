@@ -41,6 +41,7 @@ Glosario:
 * light: luz
 * things: cosas
 * were: fueron
+* flesh: carne
 
 
 frases:
