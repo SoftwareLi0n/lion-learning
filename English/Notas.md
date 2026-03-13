@@ -42,7 +42,8 @@ Glosario:
 * things: cosas
 * were: fueron
 * flesh: carne
-
+* among us: entre nosotros
+* saying: dicho
 
 frases:
 * there was: hubo
