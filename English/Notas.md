@@ -47,4 +47,5 @@ Glosario:
 
 frases:
 * there was: hubo
-
+* who are thou: ¿Quién eres tú?
+* i AM not the christ
