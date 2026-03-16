@@ -48,4 +48,4 @@ Glosario:
 frases:
 * there was: hubo
 * who are thou: ¿Quién eres tú?
-* i AM not the christ
+* i AM not the christ: yo no soy el Cristo
