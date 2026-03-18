@@ -49,3 +49,6 @@ frases:
 * there was: hubo
 * who are thou: ¿Quién eres tú?
 * i AM not the christ: yo no soy el Cristo
+
+frases recurrentes:
+* i'm going to have lunch: voy a almorzar
