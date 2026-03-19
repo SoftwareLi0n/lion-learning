@@ -32,7 +32,23 @@ Glosario:
  * outside: afuera
  * Edge: borde
  * Engine: Motor
- * Keep: Mantener
- * Undo: Deshacer
- * shortcuts: atajos
- * shrink: encoger
+* have: tener
+* was: era
+* beginning: principio
+* with: con
+* life: vida
+* live: vivir
+* light: luz
+* things: cosas
+* were: fueron
+* flesh: carne
+* among us: entre nosotros
+* saying: dicho
+
+frases:
+* there was: hubo
+* who are thou: ¿Quién eres tú?
+* i AM not the christ: yo no soy el Cristo
+
+frases recurrentes:
+* i'm going to have lunch: voy a almorzar
