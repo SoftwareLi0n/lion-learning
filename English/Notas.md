@@ -52,3 +52,4 @@ frases:
 
 frases recurrentes:
 * i'm going to have lunch: voy a almorzar
+* i'm going to have breakfast: voy a desayunar
