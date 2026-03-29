@@ -44,6 +44,7 @@ Glosario:
 * flesh: carne
 * among us: entre nosotros
 * saying: dicho
+* yesterday: ayer
 
 frases:
 * there was: hubo
@@ -53,3 +54,4 @@ frases:
 frases recurrentes:
 * i'm going to have lunch: voy a almorzar
 * i'm going to have breakfast: voy a desayunar
+* did you arrive at work on time?: llegaste puntual al trabajo?
