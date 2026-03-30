@@ -20,3 +20,7 @@ C:\Users\Lion\AppData\Roaming\AnyDesk\system.conf
 
 renombrar (funciona)
 C:\ProgramData\AnyDesk\service.conf
+
+### Ver el calor del procesador
+hwmonitor
+https://www.cpuid.com/softwares/hwmonitor.html
