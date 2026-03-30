@@ -44,7 +44,10 @@ Glosario:
 * flesh: carne
 * among us: entre nosotros
 * saying: dicho
+
+dates
 * yesterday: ayer
+* tomorrow: mañana
 
 frases:
 * there was: hubo
