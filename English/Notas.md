@@ -63,3 +63,4 @@ frases recurrentes:
 
 programación:
 * software architecture: arquitectura de software
+* feasibility: factibilidad
