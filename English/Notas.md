@@ -51,6 +51,7 @@ dates
 
 frases:
 * there was: hubo
+* such as: como
 * who are thou: ¿Quién eres tú?
 * i AM not the christ: yo no soy el Cristo
 
