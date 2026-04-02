@@ -44,6 +44,7 @@ Glosario:
 * flesh: carne
 * among us: entre nosotros
 * saying: dicho
+* understand: entender
 
 dates
 * yesterday: ayer
