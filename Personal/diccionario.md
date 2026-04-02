@@ -4,3 +4,4 @@
 * Aferente: Entrada
 * Eferente: Salida
 * ajenjo: planta de sabor amargo y aroma fuerte
+* cardo: planta con hojas y tallos espinoso
