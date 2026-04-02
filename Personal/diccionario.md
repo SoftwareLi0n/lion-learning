@@ -1,7 +1,0 @@
-* vianda: comida preparada para ser consumida
-* enjuto: escaso, seco, delgado.
-* cohesión: operación de la unión de 2 componentes.
-* Aferente: Entrada
-* Eferente: Salida
-* ajenjo: planta de sabor amargo y aroma fuerte
-* cardo: planta con hojas y tallos espinoso
