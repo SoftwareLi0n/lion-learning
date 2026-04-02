@@ -3,3 +3,4 @@
 * cohesión: operación de la unión de 2 componentes.
 * Aferente: Entrada
 * Eferente: Salida
+* ajenjo: planta de sabor amargo y aroma fuerte
