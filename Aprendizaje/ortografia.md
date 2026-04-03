@@ -1,0 +1,1 @@
+* cayó: de caer, de golpearse
