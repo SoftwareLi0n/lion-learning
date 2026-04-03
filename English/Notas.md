@@ -44,6 +44,8 @@ Glosario:
 * flesh: carne
 * among us: entre nosotros
 * saying: dicho
+* understand: entender
+
 
 dates
 * yesterday: ayer
@@ -52,6 +54,7 @@ dates
 frases:
 * there was: hubo
 * such as: como
+* to me: para mi 
 * who are thou: ¿Quién eres tú?
 * i AM not the christ: yo no soy el Cristo
 
