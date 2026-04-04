@@ -6,4 +6,4 @@
 * novilla: es una vaca joven que no tiene crías aún
 * cerviz: es donde se une la cabeza con la columna.
 * lozana: es cuando tiene la piel fresca, buen color y se ve fuerte.
- 
+* drogas psicodelicas: drogas que alteran la percepción.
