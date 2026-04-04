@@ -11,6 +11,6 @@
 9. n8n
 10. Cloud code
 11. Agent Skills
-12. Arquitectura de software
+12. Arquitectura de software (https://youtu.be/UsEx2L-E6-Y)
 	1. reverse proxy
 	2. https://youtu.be/cIcpq2smW-w
