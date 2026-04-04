@@ -7,3 +7,4 @@
 * cerviz: es donde se une la cabeza con la columna.
 * lozana: es cuando tiene la piel fresca, buen color y se ve fuerte.
 * drogas psicodelicas: drogas que alteran la percepción.
+* nómina: Documento oficial tributario que evidencia el pago de sus trabajadores.
