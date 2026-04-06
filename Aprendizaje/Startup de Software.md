@@ -17,7 +17,7 @@ Puntos:
 * margen bruto: Porcentaje de dinero con el que te quedas después de restar todos tus costos, debe ser mayor sobre el 82%
 - [ ] Calcular margen bruto
 * Churn: Porcentaje de usuarios que dejar de usar el software, es recomendable que sea menos del 1%
-* Magic Number: Cuando dinero inviertes en marketing y ventas, y ver cuanto de dinero te retorna el siguiente periodo como ingreso recurrente.
+* Magic Number: Cuando dinero inviertes en marketing y ventas, y ver cuanto de dinero te retorna el siguiente periodo como ingreso recurrente, es recomendable que sea sobre 1
 
 Tipo de Saas:
 * SaaS para PyMEs: Software para Pequeñas y Medianas Empresas
