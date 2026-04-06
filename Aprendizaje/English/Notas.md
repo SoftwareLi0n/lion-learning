@@ -45,6 +45,7 @@ Glosario:
 * among us: entre nosotros
 * saying: dicho
 * understand: entender
+* lacking: carente
 
 
 dates
