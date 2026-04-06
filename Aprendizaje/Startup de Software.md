@@ -6,6 +6,7 @@ Puntos:
 * Decirle al cliente que no será un software a medida, pero si genérico y buscará solucionar problemas.
 * Desarrollar un software con un cliente fundador.
 * Formar una relación con tu cliente y ofrecerles valor.
+* Las empresas grandes van a querer cosas a la medida.
 
 Tipo de Saas:
 * SaaS para PyMEs: Software para Pequeñas y Medianas Empresas
@@ -17,6 +18,7 @@ Glosario:
 * B2B (Business to Business | De empresa a empresa): Un software desarrollado por empresas para empresas (Sistemas de ventas, Transportes)
 * B2C (Business to Consumer | De empresa a consumidor): Software creado por una empresa para un consumidor final, como whatsapp, netflix.
 * status quo: estado actual de las cosas
+* **bootstrapping**: crear y hacer crecer una empresa financiándola completamente con recursos propios y con los ingresos que generan los clientes.
 
 
 
