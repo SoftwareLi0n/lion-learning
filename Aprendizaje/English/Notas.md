@@ -53,7 +53,7 @@ attach evitativo
 * way: manera, forma
 * trust: confianza
 * nurturing: cuidado
-
+* and most of all: y sobre todo 
 
 dates
 * yesterday: ayer
