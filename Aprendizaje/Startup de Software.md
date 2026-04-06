@@ -7,6 +7,11 @@ Puntos:
 * Desarrollar un software con un cliente fundador.
 * Formar una relación con tu cliente y ofrecerles valor.
 * Las empresas grandes van a querer cosas a la medida.
+* Antes de crecer más, crear cultura y bases sólidas de la empresa.
+	* Validar tipo de variables
+	* Arquitectura de Software
+	* Evitar la no dependencia de los trabajadores
+	* Velar para que estés contentos
 
 Tipo de Saas:
 * SaaS para PyMEs: Software para Pequeñas y Medianas Empresas
