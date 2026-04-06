@@ -1,6 +1,7 @@
 Fuentes:
 https://www.youtube.com/watch?v=S4KFJI_j29E
 
+Puntos:
 * No hacer software a medidas
 * Decirle al cliente que no será un software a medida, pero si genérico y buscará solucionar problemas.
 * Desarrollar un software con un cliente fundador.
