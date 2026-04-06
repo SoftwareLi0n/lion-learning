@@ -14,8 +14,10 @@ Puntos:
 	* Velar para que estés contentos
 * Los vendedores pueden ser todo tipo de personas.
 - [ ] Conseguir vendedores
-* margen bruto: Porcentaje de dinero con el que te quedas después de restar todos tus costos.
+* margen bruto: Porcentaje de dinero con el que te quedas después de restar todos tus costos, debe ser mayor sobre el 82%
 - [ ] Calcular margen bruto
+* Churn: Porcentaje de usuarios que dejar de usar el software, es recomendable que sea menos del 1%
+* 
 
 Tipo de Saas:
 * SaaS para PyMEs: Software para Pequeñas y Medianas Empresas
