@@ -49,6 +49,8 @@ Glosario:
 attach evitativo
 * lacking: carente
 * caregivers: cuidadoras 
+* trust: confianza
+* nurturing: cuidado
 
 
 dates
