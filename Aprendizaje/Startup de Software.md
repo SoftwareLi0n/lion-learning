@@ -1,5 +1,6 @@
 * No hacer software a medidas
 * Decirle al cliente que no será un software a medida, pero si genérico y buscará solucionar problemas.
+* Desarrollar un software con un cliente fundador.
 
 Glosario:
 * nómina: Documento oficial tributario que evidencia el pago de sus trabajadores.
