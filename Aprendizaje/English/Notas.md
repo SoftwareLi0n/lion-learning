@@ -50,6 +50,7 @@ attach evitativo
 * lacking: carente
 * caregivers: cuidadoras 
 * behave: comportarse
+* way: manera, forma
 * trust: confianza
 * nurturing: cuidado
 
