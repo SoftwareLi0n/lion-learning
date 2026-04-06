@@ -45,7 +45,10 @@ Glosario:
 * among us: entre nosotros
 * saying: dicho
 * understand: entender
+
+attach evitativo
 * lacking: carente
+* caregivers: cuidadoras 
 
 
 dates
