@@ -49,6 +49,7 @@ Glosario:
 attach evitativo
 * lacking: carente
 * caregivers: cuidadoras 
+* behave: comportarse
 * trust: confianza
 * nurturing: cuidado
 
