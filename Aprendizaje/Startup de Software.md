@@ -14,8 +14,10 @@ Puntos:
 	* Velar para que estés contentos
 * Los vendedores pueden ser todo tipo de personas.
 - [ ] Conseguir vendedores
+
+**Indicadores que vamos bien:**
 * margen bruto: Porcentaje de dinero con el que te quedas después de restar todos tus costos, debe ser mayor sobre el 82%
-- [ ] Calcular margen bruto
+- [x] Calcular margen bruto
 * Churn: Porcentaje de usuarios que dejar de usar el software, es recomendable que sea menos del 1%
 * Magic Number: Cuando dinero inviertes en marketing y ventas, y ver cuanto de dinero te retorna el siguiente periodo (trimestre) como ingreso recurrente, es recomendable que sea sobre 1
 
@@ -30,6 +32,7 @@ Glosario:
 * B2C (Business to Consumer | De empresa a consumidor): Software creado por una empresa para un consumidor final, como whatsapp, netflix.
 * status quo: estado actual de las cosas
 * **bootstrapping**: crear y hacer crecer una empresa financiándola completamente con recursos propios y con los ingresos que generan los clientes.
+* burn rate: gastar más dinero del que generan, con el objetivo de  crecer rápido y capturar clientes.
 
 
 
