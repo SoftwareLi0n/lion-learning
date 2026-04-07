@@ -54,6 +54,7 @@ attach evitativo
 * trust: confianza
 * nurturing: cuidado
 * and most of all: y sobre todo 
+* relate: relacionado 
 
 dates
 * yesterday: ayer
