@@ -9,3 +9,4 @@
 * drogas psicodelicas: drogas que alteran la percepción.
 * buey: toro castrado de gran fuerza y manzo.
 * artífice: persona que crea algo o es responsable de la ejecución de alguna obra.
+* tamo: paja, cascarilla o residuos
