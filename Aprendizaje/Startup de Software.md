@@ -14,6 +14,7 @@ Puntos:
 	* Velar para que estés contentos
 * Los vendedores pueden ser todo tipo de personas.
 - [ ] Conseguir vendedores
+* Saber cuando invertir más de tus ingresos y cuando detenerse.
 
 **Indicadores que vamos bien:**
 * margen bruto: Porcentaje de dinero con el que te quedas después de restar todos tus costos, debe ser mayor sobre el 82%
