@@ -57,6 +57,8 @@ attach evitativo
 * relate: relacionado 
 * having our: tener nuestra 
 * met: satisfecha
+* responsive: receptiva
+* shapes: cambio de forma
 
 dates
 * yesterday: ayer
