@@ -1,5 +1,6 @@
 Fuentes:
 https://www.youtube.com/watch?v=S4KFJI_j29E
+https://www.youtube.com/watch?v=Lrab91Msiho (curso de platzi)
 
 Puntos:
 * No hacer software a medidas
@@ -21,6 +22,15 @@ Puntos:
 - [x] Calcular margen bruto
 * Churn: Porcentaje de usuarios que dejar de usar el software, es recomendable que sea menos del 1%
 * Magic Number: Cuando dinero inviertes en marketing y ventas, y ver cuanto de dinero te retorna el siguiente periodo (trimestre) como ingreso recurrente, es recomendable que sea sobre 1
+
+Pasos
+1. Ten una idea
+	a. Haz algo que quiera la gente
+	b. Compartir tu idea con alguien
+2. Saca un MVP: Para que pruebes su funciona
+3. Vuelve a la idea
+
+4. Formaliza
 
 Tipo de Saas:
 * SaaS para PyMEs: Software para Pequeñas y Medianas Empresas

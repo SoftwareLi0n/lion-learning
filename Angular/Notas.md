@@ -1,0 +1,1 @@
+* Si trabajas con módulos, y al abrir un componente hijo desde un modal, cuando se abre se omite el *`hijo.module.ts`*, pero si necesitas *`hijo.module.ts`* debes colocarlo en los imports del module del padre.
