@@ -59,7 +59,7 @@ attach evitativo
 * met: satisfecha
 * responsive: receptiva
 * shapes: cambio de forma
-
+* attuned: sintonizada
 dates
 * yesterday: ayer
 * tomorrow: mañana
