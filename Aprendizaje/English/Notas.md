@@ -57,6 +57,13 @@ attach evitativo
 * relate: relacionado 
 * having our: tener nuestra 
 * met: satisfecha
+* responsive: receptiva
+* shapes: cambio de forma
+* attuned: sintonizada
+* to one another: el uno al otro
+* meaning: significa(do)
+* able to: capaz de
+* feel: sentir
 
 dates
 * yesterday: ayer
