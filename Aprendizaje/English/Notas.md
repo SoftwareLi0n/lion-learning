@@ -61,6 +61,9 @@ attach evitativo
 * shapes: cambio de forma
 * attuned: sintonizada
 * to one another: el uno al otro
+* meaning: significa(do)
+* able to: capaz de
+* feel: sentir
 
 dates
 * yesterday: ayer
