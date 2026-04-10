@@ -60,6 +60,8 @@ attach evitativo
 * responsive: receptiva
 * shapes: cambio de forma
 * attuned: sintonizada
+* to one another: el uno al otro
+
 dates
 * yesterday: ayer
 * tomorrow: mañana
