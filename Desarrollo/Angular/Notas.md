@@ -1,4 +1,6 @@
 Apuntes de códigos importantes en Angular
+### Notas importantes
+* Si trabajas con módulos, y al abrir un componente hijo desde un modal, cuando se abre se omite el *`hijo.module.ts`*, pero si necesitas *`hijo.module.ts`* debes colocarlo en los imports del module del padre.
 
 ### Parámetros por URL
 ```typescript
@@ -21,8 +23,21 @@ private route: ActivatedRoute
 const id = this.route.snapshot.paramMap.get('id');
 ```
 
-
 ### Recibir parametros (modal componente)
 ```typescript
 @Inject(MAT_DIALOG_DATA) public data: any // esto agregar en el constructor
+```
+
+### Parámetros de consulta
+```ts
+filtrarLista() { 
+	this.router.navigate(['/proveedores'], { 
+		queryParams: { categoria: 'agua', orden: 'ascendente' } 
+	}); 
+}
+
+ngOnInit() { 
+	// Nota que aquí usamos queryParamMap en lugar de paramMap 
+	const categoria = this.route.snapshot.queryParamMap.get('categoria'); // "agua" 
+}
 ```

@@ -1,0 +1,1 @@
+1. [Notas rápidas](Desarrollo/Base%20de%20datos/SQL%20Server/Notas.md)

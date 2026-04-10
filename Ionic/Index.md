@@ -1,1 +1,0 @@
-1. [Notas rápidas](./Notas.md)
