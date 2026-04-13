@@ -47,6 +47,7 @@ Glosario:
 * understand: entender
 
 attach evitativo
+* unable: incapaz
 * lacking: carente
 * caregivers: cuidadoras 
 * behave: comportarse
