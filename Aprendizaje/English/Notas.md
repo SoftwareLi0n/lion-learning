@@ -65,6 +65,7 @@ attach evitativo
 * meaning: significa(do)
 * able to: capaz de
 * feel: sentir
+* foundation: base (cimiento)
 
 dates
 * yesterday: ayer
