@@ -45,6 +45,7 @@ Glosario:
 * among us: entre nosotros
 * saying: dicho
 * understand: entender
+* grow: viene del verbo crecer
 
 attach evitativo
 * unable: incapaz
