@@ -45,8 +45,10 @@ Glosario:
 * among us: entre nosotros
 * saying: dicho
 * understand: entender
+* grow: viene del verbo crecer
 
 attach evitativo
+* unable: incapaz
 * lacking: carente
 * caregivers: cuidadoras 
 * behave: comportarse
@@ -64,6 +66,9 @@ attach evitativo
 * meaning: significa(do)
 * able to: capaz de
 * feel: sentir
+* foundation: base (cimiento)
+* healthy: saludable
+* sense: sentido
 
 dates
 * yesterday: ayer
