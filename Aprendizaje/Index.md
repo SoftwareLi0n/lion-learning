@@ -14,3 +14,4 @@
 12. Arquitectura de software (https://youtu.be/UsEx2L-E6-Y)
 	1. reverse proxy
 	2. https://youtu.be/cIcpq2smW-w
+13. Comunicación entre componentes

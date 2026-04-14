@@ -41,3 +41,12 @@ ngOnInit() {
 	const categoria = this.route.snapshot.queryParamMap.get('categoria'); // "agua" 
 }
 ```
+
+### Componentes
+* Los componentes hijos, no deben hacer llamadas a la base de datos (apis)
+* 
+```ts
+// va el el componente hijo
+// si el padre cambia una variable, se cambia en el hijo
+ngOnChanges(){}
+```
