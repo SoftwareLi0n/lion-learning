@@ -67,6 +67,7 @@ attach evitativo
 * feel: sentir
 * foundation: base (cimiento)
 * healthy: saludable
+* sense: sentido
 
 dates
 * yesterday: ayer
