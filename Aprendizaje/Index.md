@@ -15,3 +15,4 @@
 	1. reverse proxy
 	2. https://youtu.be/cIcpq2smW-w
 13. Comunicación entre componentes
+14. **_TypeORM_**
