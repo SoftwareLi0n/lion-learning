@@ -3,7 +3,7 @@
 1. Flutter
 2. WebSockets - SI
 3. Docker - SI
-4. SEO
+4. SEO - SI
 5. AWS (Amazon) o Google Cloud
 6. Microservicios
 7. Subir package a npm
