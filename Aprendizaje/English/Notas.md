@@ -69,6 +69,7 @@ attach evitativo
 * foundation: base (cimiento)
 * healthy: saludable
 * sense: sentido
+* grow: crecer
 * Childhood: infancia
 
 dates
