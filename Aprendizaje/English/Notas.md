@@ -57,6 +57,7 @@ attach evitativo
 * nurturing: cuidado
 * and most of all: y sobre todo 
 * relate: relacionado 
+* have: tener
 * having our: tener nuestra 
 * met: satisfecha
 * responsive: receptiva
