@@ -83,7 +83,7 @@ abstract class DocumentoTributario implements IExportable {
 }
 ```
 
-Ejemplo con clase abstract
+*Ejemplo con clase abstract*
 ```ts
 abstract class DocumentoTributario implements IExportable {
 	abstract calcularTotal(): number;
