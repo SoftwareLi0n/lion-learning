@@ -72,6 +72,7 @@ attach evitativo
 * sense: sentido
 * grow: crecer
 * Childhood: infancia
+* pattern: patrón 
 
 dates
 * yesterday: ayer
