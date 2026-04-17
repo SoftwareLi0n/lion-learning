@@ -68,6 +68,7 @@ class Factura extends DocumentoTributario {
 ```
 
 4. **Abstracción**: Es mostrarle lo que hace, pero no darle detalle de como lo hace, se suele usar la palabra implements (puedes usar contratos con interfaces o clases abstract)
+*Ejemplo con interfaces*
 ```ts
 // se crea un contrato
 export interface IExportable {
@@ -82,3 +83,17 @@ abstract class DocumentoTributario implements IExportable {
 }
 ```
 
+Ejemplo con clase abstract
+```ts
+abstract class DocumentoTributario implements IExportable {
+	abstract calcularTotal(): number;
+}
+
+class Factura extends DocumentoTributario {
+	// Si o si debe existir este método
+	calcularTotal(): number {
+        const impuesto = this.getMontoBase() * this.IGV;
+        return impuesto;
+    }
+}
+```
