@@ -57,6 +57,7 @@ attach evitativo
 * nurturing: cuidado
 * and most of all: y sobre todo 
 * relate: relacionado 
+* have: tener
 * having our: tener nuestra 
 * met: satisfecha
 * responsive: receptiva
@@ -71,6 +72,7 @@ attach evitativo
 * sense: sentido
 * grow: crecer
 * Childhood: infancia
+* pattern: patrón 
 
 dates
 * yesterday: ayer
