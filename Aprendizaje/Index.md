@@ -16,3 +16,4 @@
 	2. https://youtu.be/cIcpq2smW-w
 13. Comunicación entre componentes
 14. **_TypeORM_**
+15. Metodología canva
