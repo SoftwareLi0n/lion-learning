@@ -73,6 +73,7 @@ attach evitativo
 * grow: crecer
 * Childhood: infancia
 * pattern: patrón 
+* as we attempt: mientras intentamos
 
 dates
 * yesterday: ayer
