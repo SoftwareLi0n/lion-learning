@@ -5,6 +5,8 @@ Glosario:
 * cohesión: operación de la unión de 2 componentes.
 * Aferente: Entrada
 * Eferente: Salida
+* Dominio: Es el negocio en si, que es, que hace (sus funciones, reglas)
+* Patrones de Dominio: Organizar el código para que  el dominio lo pasamos a código.
 
 Arquitectura
 ```bash
