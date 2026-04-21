@@ -74,6 +74,7 @@ attach evitativo
 * Childhood: infancia
 * pattern: patrón 
 * as we attempt: mientras intentamos
+* bolster: reforzar
 
 dates
 * yesterday: ayer
