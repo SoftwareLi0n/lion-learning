@@ -75,6 +75,7 @@ attach evitativo
 * pattern: patrón 
 * as we attempt: mientras intentamos
 * bolster: reforzar
+* can: poder 
 
 dates
 * yesterday: ayer
