@@ -8,8 +8,10 @@
 
 ## L: Principio de sustitución de Liskov
 * La clase hijo debe poder remplazar al padre sin que explote
-* Clase padre "Ave" que tiene método volar y clase hijo "Paloma" y "Pingüino" si ambos heredan del padre, en el pingüino saldría error, tendría que existir otra clase "AveVoladora"
+* Ejemplo: Clase padre "Ave" que tiene método volar y clase hijo "Paloma" y "Pingüino" si ambos heredan del padre, en el pingüino saldría error, tendría que existir otra clase "AveVoladora"
 
 ## I: Principio de segregación de interfaces 
 * Es mejor tener **muchas interfaces pequeñas** que una sola interfaz gigante. No obligues a una clase a implementar métodos que no necesita.
-D: Principio de inversión de dependencias
+
+## D: Principio de inversión de dependencias
+* Las clases de alto nivel (tu lógica de negocio) no deben depender de herramientas de bajo nivel (bases de datos, APIs). Ambas deben depender de abstracciones (interfaces).
