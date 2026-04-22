@@ -1,6 +1,9 @@
 import { ICalculadoraImpuesto } from "./impuestos";
 import { IComprobante, INotificador, IRepositorio } from "./interfaces";
 
+// 🟢 LETRA "D"
+//// BIEN: Dependency Inversion. El facturador no sabe qué base de datos ni qué correo usa.
+
 export class ProcesadorFacturacion {
     constructor(
         private baseDeDatos: IRepositorio,
