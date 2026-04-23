@@ -76,6 +76,7 @@ attach evitativo
 * as we attempt: mientras intentamos
 * bolster: reforzar
 * can: poder 
+* undermine: socavar
 
 dates
 * yesterday: ayer
