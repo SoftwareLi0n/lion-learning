@@ -77,6 +77,7 @@ attach evitativo
 * bolster: reforzar
 * can: poder 
 * undermine: socavar
+* highs and lows: altibajos
 
 dates
 * yesterday: ayer
