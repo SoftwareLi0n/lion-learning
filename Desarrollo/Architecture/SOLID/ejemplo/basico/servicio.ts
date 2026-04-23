@@ -1,6 +1,3 @@
-import { ICalculadoraImpuesto } from "./impuestos";
-import { IComprobante, INotificador, IRepositorio } from "./features/facturacion/interfaces/comprobante.interface";
-
 // 🟢 LETRA "D"
 //// BIEN: Dependency Inversion. El facturador no sabe qué base de datos ni qué correo usa.
 
