@@ -1,4 +1,4 @@
-import { IRepositorio, INotificador } from './interfaces';
+import { IRepositorio, INotificador } from './features/facturacion/interfaces/comprobante.interface';
 
 // 🟢 LETRA "S"
 
