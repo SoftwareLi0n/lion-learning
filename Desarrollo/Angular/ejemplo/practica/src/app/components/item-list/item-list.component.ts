@@ -14,9 +14,14 @@ export class ItemListComponent {
     @Input() items: any[] = [];
 
     // 📤 De Hijo a Padre
-    @Output() onDeleteItem = new EventEmitter<number>();
+    @Output() onDeleteItem = new EventEmitter<IResEliminar>();
 
     eliminar(id: number) {
-        this.onDeleteItem.emit(id);
+        this.onDeleteItem.emit({ id, mensaje: 'eliminado' });
     }
+}
+
+export interface IResEliminar {
+    id: number;
+    mensaje: string;
 }

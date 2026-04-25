@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { InvoiceService } from '../../services/invoice.service';
-import { ItemListComponent } from '../item-list/item-list.component';
+import { IResEliminar, ItemListComponent } from '../item-list/item-list.component';
 
 @Component({
     selector: 'app-invoice',
@@ -24,8 +24,8 @@ export class InvoiceComponent {
         this.calcularYNotificar();
     }
 
-    removerProducto(id: number) {
-        this.listaProductos = this.listaProductos.filter(p => p.id !== id);
+    removerProducto(res_eliminar: IResEliminar) {
+        this.listaProductos = this.listaProductos.filter(p => p.id !== res_eliminar.id);
         this.calcularYNotificar();
     }
 
