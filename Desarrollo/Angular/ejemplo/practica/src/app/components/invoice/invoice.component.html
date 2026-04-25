@@ -1,0 +1,8 @@
+<h1>Gestión de Comprobante</h1>
+<p>Total Acumulado: <strong>S/ {{ totalGlobal }}</strong></p>
+
+<app-item-list 
+    [titulo]="'Productos SIRE'" 
+    [items]="listaProductos" 
+    (onDeleteItem)="removerProducto($event)">
+</app-item-list>

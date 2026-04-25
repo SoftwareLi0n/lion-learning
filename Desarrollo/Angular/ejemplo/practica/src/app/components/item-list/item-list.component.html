@@ -1,0 +1,9 @@
+<div class="card">
+    <h4>Detalle: {{ titulo }}</h4>
+    <ul>
+        <li *ngFor="let item of items">
+            {{ item.descripcion }} - S/ {{ item.precio }}
+            <button (click)="eliminar(item.id)">Eliminar</button>
+        </li>
+    </ul>
+</div>
