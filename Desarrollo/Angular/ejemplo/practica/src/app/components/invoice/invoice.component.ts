@@ -20,7 +20,9 @@ export class InvoiceComponent {
 
     ngOnInit() {
         // Nos suscribimos al servicio para reaccionar a cambios en el total
-        this.invoiceService.total$.subscribe(valor => this.totalGlobal = valor);
+        this.invoiceService.total$.subscribe(valor => {
+            this.totalGlobal = valor
+        });
         this.calcularYNotificar();
     }
 
