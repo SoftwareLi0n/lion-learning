@@ -17,6 +17,7 @@ export class ItemListComponent {
     @Output() onDeleteItem = new EventEmitter<IResEliminar>();
 
     eliminar(id: number) {
+        // Emit solo puede enviar "1" valor
         this.onDeleteItem.emit({ id, mensaje: 'eliminado' });
     }
 }
