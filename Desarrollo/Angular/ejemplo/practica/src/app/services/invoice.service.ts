@@ -6,7 +6,10 @@ import { BehaviorSubject } from 'rxjs';
 export class InvoiceService {
     // El "Subject" mantiene el valor y lo emite a quien se suscriba
     private totalSubject = new BehaviorSubject<number>(0);
-    total$ = this.totalSubject.asObservable();
+    
+    // lo que está en observacion
+    // $ solo es una convención para indicar que es un Observable
+    total$ = this.totalSubject.asObservable(); 
 
     actualizarTotal(nuevoTotal: number) {
         this.totalSubject.next(nuevoTotal);
