@@ -1,8 +1,10 @@
 <h1>Gestión de Comprobante</h1>
 <p>Total Acumulado: <strong>S/ {{ totalGlobal }}</strong></p>
 
+<br>
+<p>Componente: app-item-list</p>
 <app-item-list 
-    [titulo]="'Productos SIRE'" 
+    [titulo]="'Productos SUNAT'" 
     [items]="listaProductos" 
     (onDeleteItem)="removerProducto($event)">
 </app-item-list>

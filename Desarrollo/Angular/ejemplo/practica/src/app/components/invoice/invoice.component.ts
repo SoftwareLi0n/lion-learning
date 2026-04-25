@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { InvoiceService } from '../../services/invoice.service';
+import { ItemListComponent } from '../item-list/item-list.component';
 
 @Component({
     selector: 'app-invoice',
     standalone: true,
-    imports: [],
+    imports: [ItemListComponent],
     templateUrl: './invoice.component.html',
     styleUrl: './invoice.component.scss'
 })

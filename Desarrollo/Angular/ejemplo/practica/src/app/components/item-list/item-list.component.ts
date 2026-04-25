@@ -1,9 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
     selector: 'app-item-list',
     standalone: true,
-    imports: [],
+    imports: [CommonModule],
     templateUrl: './item-list.component.html',
     styleUrl: './item-list.component.scss'
 })
