@@ -1,1 +1,0 @@
-1. **RxJS**: Te permite manipular los eventos y datos mediante el uso de flujos de datos **(streams)**, obtiene en tiempo real, parecido al Socket

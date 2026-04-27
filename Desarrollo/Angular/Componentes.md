@@ -48,5 +48,9 @@ ngOnInit() {
 ```ts
 // va el el componente hijo
 // si el padre cambia una variable, se cambia en el hijo
-ngOnChanges(){}
+ngOnChanges(changes: SimpleChanges): void {
+        if (changes['data'] && this.data) {
+            this.dataSource.data = this.data;
+        }
+    }
 ```
