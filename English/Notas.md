@@ -78,6 +78,7 @@ attach evitativo
 * can: poder 
 * undermine: socavar
 * highs and lows: altibajos
+* relate: relacionamos
 
 dates
 * yesterday: ayer
