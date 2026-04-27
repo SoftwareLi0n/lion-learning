@@ -79,6 +79,9 @@ attach evitativo
 * undermine: socavar
 * highs and lows: altibajos
 * relate: relacionamos
+* addresses: abordar
+* feel: sentir (sentirse)
+* intimacy: intimidad 
 
 dates
 * yesterday: ayer
