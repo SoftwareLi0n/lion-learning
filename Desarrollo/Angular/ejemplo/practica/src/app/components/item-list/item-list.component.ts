@@ -20,6 +20,7 @@ export class ItemListComponent {
         // Emit solo puede enviar "1" valor
         this.onDeleteItem.emit({ id, mensaje: 'eliminado' });
     }
+    
 }
 
 export interface IResEliminar {
