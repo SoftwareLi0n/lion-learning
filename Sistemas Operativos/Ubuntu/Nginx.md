@@ -9,6 +9,14 @@ Verificar si los cambios están correctos
 nginx -t
 ```
 
+```bash
+sudo ln -s /etc/nginx/sites-available/lionapi.softwarelion.pe /etc/nginx/sites-enabled/lionapi.softwarelion.pe
+```
+
+```bash
+sudo certbot --nginx -d lionapi.softwarelion.pe
+```
+
 Reiniciar nginx
 ```bash
 sudo service nginx restart
