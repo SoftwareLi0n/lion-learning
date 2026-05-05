@@ -82,6 +82,7 @@ attach evitativo
 * addresses: abordar
 * feel: sentir (sentirse)
 * intimacy: intimidad 
+* their: su
 
 dates
 * yesterday: ayer
