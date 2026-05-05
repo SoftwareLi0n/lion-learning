@@ -83,7 +83,8 @@ attach evitativo
 * feel: sentir (sentirse)
 * intimacy: intimidad 
 * their: su
-* that: normal
+* that: eso
+* for: para
 
 dates
 * yesterday: ayer
