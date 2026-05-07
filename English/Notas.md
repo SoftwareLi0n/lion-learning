@@ -85,6 +85,7 @@ attach evitativo
 * their: su
 * that: eso
 * for: para
+* reliable: confiable
 
 dates
 * yesterday: ayer
