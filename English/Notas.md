@@ -78,6 +78,14 @@ attach evitativo
 * can: poder 
 * undermine: socavar
 * highs and lows: altibajos
+* relate: relacionamos
+* addresses: abordar
+* feel: sentir (sentirse)
+* intimacy: intimidad 
+* their: su
+* that: eso
+* for: para
+* reliable: confiable
 
 dates
 * yesterday: ayer
