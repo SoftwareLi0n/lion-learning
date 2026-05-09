@@ -21,3 +21,8 @@ Reiniciar nginx
 ```bash
 sudo service nginx restart
 ```
+
+Ver las ultimas 10 peticiones en vivo a mi servidor
+```bash
+sudo tail -f /var/log/nginx/access.log
+```
