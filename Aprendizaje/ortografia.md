@@ -6,3 +6,4 @@
 * echándole
 * Pingüino
 * hay: hay cola
+* hazle
