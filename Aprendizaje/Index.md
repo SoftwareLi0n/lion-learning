@@ -17,3 +17,4 @@
 13. Comunicación entre componentes
 14. **_TypeORM_**
 15. Metodología canva
+16. Google Analytics y Firebase Crashlytics para recopilar datos sobre el uso de la aplicación
