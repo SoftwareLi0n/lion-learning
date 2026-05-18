@@ -20,3 +20,9 @@
 16. Google Analytics y Firebase Crashlytics para recopilar datos sobre el uso de la aplicación
 17. Pruebas automáticas
 18. SOLID: https://youtu.be/nIOyxmMcIB4?list=PLCKuOXG0bPi0QID2IxzE-SrpmsbY5LbVO
+
+
+Cosa que necesito aprender ruta:
+1. Arquitectura en nodejs
+2. Arquitectura en angular
+3. Comunicación entre componentes en angular
