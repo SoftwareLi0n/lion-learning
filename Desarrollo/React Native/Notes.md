@@ -21,9 +21,3 @@ platforms: Carpeta de producto final, se genera a partir de App_Resources
 
 Publicación
 
-Propagar el icon and the splash
-```bash
-ns resources generate icons recursos_base/icon.png
-
-ns resources generate splashes assets/splash.png --background "#FFFFFF"
-```
