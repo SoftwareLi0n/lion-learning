@@ -29,3 +29,5 @@ D:\projects\projects-lion\mi_recibo_ns\App_Resources\iOS\Info.plist
 <key>CFBundleName</key>
 <string>Mi recibo</string>
 ```
+
+### Generar el abb
