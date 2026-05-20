@@ -21,3 +21,11 @@ D:\projects\projects-lion\mi_recibo_ns\App_Resources\Android\src\main\res\values
 </resources>
 ```
 
+D:\projects\projects-lion\mi_recibo_ns\App_Resources\iOS\Info.plist
+```xml
+<key>CFBundleDisplayName</key>
+<string>Mi recibo</string>
+...
+<key>CFBundleName</key>
+<string>Mi recibo</string>
+```
