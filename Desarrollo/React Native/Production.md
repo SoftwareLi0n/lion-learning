@@ -31,3 +31,19 @@ D:\projects\projects-lion\mi_recibo_ns\App_Resources\iOS\Info.plist
 ```
 
 ### Generar el abb
+**Aumentamos la versión de la app**
+ruta: D:\projects\projects-lion\mi_recibo_ns\App_Resources\Android\app.gradle
+```gragle
+versionCode 85
+versionName "1.85.0"
+```
+
+**Limpiamos el proyecto**
+```bash
+ns clean
+```
+
+Execute comando of compilation
+```bash
+ns build android --release --aab --key-store-path <ruta-a-tu-archivo.jks> --key-store-password "<tu-contraseña>" --key-store-alias "<tu-alias>" --key-store-alias-password "<contraseña-del-alias>"
+```
