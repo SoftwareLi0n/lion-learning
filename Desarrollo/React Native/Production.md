@@ -46,4 +46,6 @@ ns clean
 Execute comando of compilation
 ```bash
 ns build android --release --aab --key-store-path <ruta-a-tu-archivo.jks> --key-store-password "<tu-contraseña>" --key-store-alias "<tu-alias>" --key-store-alias-password "<contraseña-del-alias>"
+
+
 ```
