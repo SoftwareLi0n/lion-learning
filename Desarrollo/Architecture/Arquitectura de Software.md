@@ -5,6 +5,8 @@ Glosario:
 * Dominio: Es el negocio en si, que es, que hace (sus funciones, reglas)
 * Modelo: En la representación de ese dominio en tu código (las clases por ejemplo).
 * Patrones de Dominio: Organizar el código para que  el dominio lo pasamos a código.
+* Monorepo: múltiples Apps juntas
+* 
 
 Arquitectura
 ```bash
