@@ -49,3 +49,6 @@ ns build android --release --aab --key-store-path <ruta-a-tu-archivo.jks> --key-
 
 
 ```
+
+## iOS
+### Subir a prodc
