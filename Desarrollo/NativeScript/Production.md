@@ -51,4 +51,15 @@ ns build android --release --aab --key-store-path <ruta-a-tu-archivo.jks> --key-
 ```
 
 ## iOS
-### Subir a prodc
+### Subir a producción
+1. Actualizar versión
+   Archivo: ios/App/App/Info.plist
+```xml
+//Aumentar 1.0.1 (cambios low), 1.1 (new funtion), 2 (change long)
+<key>CFBundleShortVersionString</key> 
+<string>1.0</string>
+
+// contador
+<key>CFBundleVersion</key>
+<string>1</string>
+```
