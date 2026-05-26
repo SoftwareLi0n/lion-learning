@@ -19,4 +19,4 @@ Arquitectura
 Architecture back
 - core: Es ciego al negocio, va herramientas como jwt, sql, puppeter, etc.
 - shared: Es para herramientas ligeras y utilidades
-- 
+- features: funcionalidad del negocio que tiene controlador.
