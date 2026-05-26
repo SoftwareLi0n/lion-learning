@@ -14,3 +14,9 @@ Arquitectura
 - factures
 -- shared: por lo general va puras elementos y componentes, que se inscrusta en el HTML (no van services)
 ```
+
+
+Architecture back
+- core: Es ciego al negocio, va herramientas como jwt, sql, puppeter, etc.
+- shared: Es para herramientas ligeras y utilidades
+- 
