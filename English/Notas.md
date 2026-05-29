@@ -5,22 +5,15 @@ iPhone
 * Home Screen & App Library: Pantalla de inicio y biblioteca de aplicaciones
 * StandBy: Apoyar
 * wallpaper: papel pintado
-* focus: enfocar
 * set schedule: establecer horario
 * Focus filters: filtro de enfoque
 
 Glosario:
  * Want: desear
- * Just: justo
- * Target: Objetivo
  * Make: hacer
  * layer: capa
- * our: nuestro
  * assets: activos digitales
- * about: acerca de
  * brief: breve
- * focused: enfocado
- * focus: enfocar
  * constraints: restricciones
  * set: conjunto (sustantivo)
  * below: abajo
@@ -44,7 +37,6 @@ Glosario:
 * flesh: carne
 * among us: entre nosotros
 * saying: dicho
-* understand: entender
 * grow: viene del verbo crecer
 
 attach evitativo
