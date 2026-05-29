@@ -15,7 +15,7 @@ column: columna
 quantity: cantidad
 ## Conectores:
 with: con
-que: what
+what: que
 ## Fechas
 yesterday: ayer
 tomorrow: mañana
