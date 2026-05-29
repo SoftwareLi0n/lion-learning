@@ -5,3 +5,11 @@ about: acerca de
 focused: enfocado
 understand: entender
 Just: justo
+Edge: borde
+Want: desear
+light: luz
+constraints: restricciones
+have: tener
+## Conectores:
+with: con
+

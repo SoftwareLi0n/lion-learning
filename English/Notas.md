@@ -9,12 +9,10 @@ iPhone
 * Focus filters: filtro de enfoque
 
 Glosario:
- * Want: desear
  * Make: hacer
  * layer: capa
  * assets: activos digitales
  * brief: breve
- * constraints: restricciones
  * set: conjunto (sustantivo)
  * below: abajo
  * bottom: abajo
@@ -23,15 +21,11 @@ Glosario:
  * Provides: proporciona
  * standalone: autónomo
  * outside: afuera
- * Edge: borde
  * Engine: Motor
-* have: tener
 * was: era
 * beginning: principio
-* with: con
 * life: vida
 * live: vivir
-* light: luz
 * things: cosas
 * were: fueron
 * flesh: carne
