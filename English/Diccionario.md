@@ -12,7 +12,7 @@ constraints: restricciones
 have: tener
 row: fila
 column: columna
-
+quantity: cantidad
 ## Conectores:
 with: con
 
