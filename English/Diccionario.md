@@ -22,6 +22,9 @@ what: que
 yes: si
 for: para
 of: de
+then: entonces
+now: ahora
+
 ## Fechas
 yesterday: ayer
 tomorrow: mañana
