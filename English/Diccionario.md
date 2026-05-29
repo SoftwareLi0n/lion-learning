@@ -20,3 +20,4 @@ with: con
 yesterday: ayer
 tomorrow: mañana
 today: hoy
+time: tiempo
