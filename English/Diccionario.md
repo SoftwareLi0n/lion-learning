@@ -19,6 +19,9 @@ receiving: recibiendo
 ## Conectores:
 with: con
 what: que
+yes: si
+for: para
+of: de
 ## Fechas
 yesterday: ayer
 tomorrow: mañana
