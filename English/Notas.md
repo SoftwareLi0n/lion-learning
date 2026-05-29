@@ -73,9 +73,6 @@ attach evitativo
 * for: para
 * reliable: confiable
 
-dates
-* yesterday: ayer
-* tomorrow: mañana
 
 frases:
 * there was: hubo

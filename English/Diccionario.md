@@ -13,3 +13,7 @@ have: tener
 ## Conectores:
 with: con
 
+## Fechas
+yesterday: ayer
+tomorrow: mañana
+today: hoy
