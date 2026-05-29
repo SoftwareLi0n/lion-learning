@@ -10,6 +10,9 @@ Want: desear
 light: luz
 constraints: restricciones
 have: tener
+row: fila
+column: columna
+
 ## Conectores:
 with: con
 
