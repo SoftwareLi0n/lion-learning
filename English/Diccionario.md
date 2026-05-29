@@ -16,6 +16,8 @@ quantity: cantidad
 sending: enviando
 receiving: recibiendo
 
+Gateway: puerta
+Broadcast: transmisión
 ## Conectores:
 with: con
 what: que
