@@ -13,6 +13,9 @@ have: tener
 row: fila
 column: columna
 quantity: cantidad
+sending: enviando
+receiving: recibiendo
+
 ## Conectores:
 with: con
 what: que
