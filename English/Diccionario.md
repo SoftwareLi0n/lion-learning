@@ -1,3 +1,7 @@
+## Comunicacion básica
+hello: hola
+
+## Palabras
 focus: enfocar
 Target: Objetivo
 our: nuestro
