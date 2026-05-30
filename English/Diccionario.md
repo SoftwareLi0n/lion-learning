@@ -42,3 +42,4 @@ enrutador: router
 ruta: route
 servicio: service
 características: features
+shared: (compartida, )
