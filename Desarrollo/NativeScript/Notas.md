@@ -4,3 +4,7 @@ Para emular en iphone
 ns preview
 ```
 
+Emular en android
+```bash
+ns run android
+```
