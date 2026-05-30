@@ -43,3 +43,5 @@ route: ruta
 service: servicio
 features: características
 shared: compartida, compartido
+providers: proveedores
+provider: proveedor
