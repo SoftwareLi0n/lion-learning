@@ -41,3 +41,4 @@ modelo: model
 enrutador: router
 ruta: route
 servicio: service
+características: features
