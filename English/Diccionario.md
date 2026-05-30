@@ -20,6 +20,8 @@ quantity: cantidad
 sending: enviando
 receiving: recibiendo
 help: ayudar
+close: cerrar
+closed: cerrado
 
 Gateway: puerta
 Broadcast: transmisión
