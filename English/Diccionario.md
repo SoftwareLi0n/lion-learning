@@ -19,9 +19,13 @@ column: columna
 quantity: cantidad
 sending: enviando
 receiving: recibiendo
+help: ayudar
 
 Gateway: puerta
 Broadcast: transmisión
+
+Write: Escribir
+files: archivos
 ## Conectores:
 with: con
 what: que
@@ -50,3 +54,6 @@ shared: compartida, compartido
 providers: proveedores
 provider: proveedor
 config: configuración
+
+## Software
+database: base de datos
