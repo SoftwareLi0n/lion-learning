@@ -33,3 +33,11 @@ yesterday: ayer
 tomorrow: mañana
 today: hoy
 time: tiempo
+
+
+## Arquitectura de software
+controlador: controller
+modelo: model
+enrutador: router
+ruta: route
+servicio: service
