@@ -56,6 +56,7 @@ shared: compartida, compartido
 providers: proveedores
 provider: proveedor
 config: configuración
+component: componente
 
 ## Software
 database: base de datos
