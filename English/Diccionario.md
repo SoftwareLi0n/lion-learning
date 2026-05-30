@@ -26,6 +26,7 @@ for: para
 of: de
 then: entonces
 now: ahora
+and: y
 
 ## Fechas
 yesterday: ayer
