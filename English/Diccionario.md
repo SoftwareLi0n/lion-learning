@@ -36,10 +36,10 @@ time: tiempo
 
 
 ## Arquitectura de software
-controlador: controller
-modelo: model
-enrutador: router
-ruta: route
-servicio: service
-características: features
-shared: (compartida, )
+controller: controlador
+model: modelo
+router: enrutador
+route: ruta
+service: servicio
+features: características
+shared: compartida, compartido
