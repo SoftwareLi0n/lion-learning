@@ -45,3 +45,4 @@ features: características
 shared: compartida, compartido
 providers: proveedores
 provider: proveedor
+config: configuración
