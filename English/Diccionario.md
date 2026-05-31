@@ -60,3 +60,4 @@ component: componente
 
 ## Software
 database: base de datos
+execute: ejecutar
