@@ -28,6 +28,7 @@ Broadcast: transmisión
 
 Write: Escribir
 files: archivos
+execute: ejecutar
 ## Conectores:
 with: con
 what: que
@@ -60,4 +61,4 @@ component: componente
 
 ## Software
 database: base de datos
-execute: ejecutar
+user: usuario
