@@ -32,6 +32,7 @@ credentials: credenciales
 search: buscar
 Gateway: puerta
 Broadcast: transmisión
+always: siempre
 
 Write: Escribir
 files: archivos
