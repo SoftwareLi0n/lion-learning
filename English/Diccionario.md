@@ -25,6 +25,7 @@ close: cerrar
 closed: cerrado
 card: tarjeta
 button: botón
+message: 
 
 Gateway: puerta
 Broadcast: transmisión
@@ -49,6 +50,7 @@ and: y
 is: es
 a: un
 from: de
+in: en
 
 ## Fechas
 yesterday: ayer
