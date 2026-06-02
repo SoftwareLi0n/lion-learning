@@ -18,6 +18,7 @@ i have: tengo
 row: fila
 column: columna
 quantity: cantidad
+send: enviar
 sending: enviando
 receiving: recibiendo
 help: ayudar
