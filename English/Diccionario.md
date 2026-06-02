@@ -28,6 +28,7 @@ card: tarjeta
 button: botón
 message: mensaje
 new: nueva, nuevo
+credentials: credenciales
 
 Gateway: puerta
 Broadcast: transmisión
