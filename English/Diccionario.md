@@ -25,7 +25,8 @@ close: cerrar
 closed: cerrado
 card: tarjeta
 button: botón
-message: 
+message: mensaje
+new: nueva, nuevo
 
 Gateway: puerta
 Broadcast: transmisión
