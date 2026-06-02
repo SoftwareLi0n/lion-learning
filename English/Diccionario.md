@@ -14,6 +14,7 @@ Want: desear
 light: luz
 constraints: restricciones
 have: tener
+i have: tengo
 row: fila
 column: columna
 quantity: cantidad
@@ -31,6 +32,11 @@ Broadcast: transmisión
 Write: Escribir
 files: archivos
 execute: ejecutar
+capture: captura
+detail: detalle
+moment: momento
+screen: pantalla
+
 ## Conectores:
 with: con
 what: que
@@ -40,6 +46,9 @@ of: de
 then: entonces
 now: ahora
 and: y
+is: es
+a: un
+from: de
 
 ## Fechas
 yesterday: ayer
@@ -64,3 +73,4 @@ component: componente
 ## Software
 database: base de datos
 user: usuario
+interface: interfaz
