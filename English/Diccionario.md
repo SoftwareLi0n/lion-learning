@@ -29,7 +29,7 @@ button: botón
 message: mensaje
 new: nueva, nuevo
 credentials: credenciales
-
+search: buscar
 Gateway: puerta
 Broadcast: transmisión
 
