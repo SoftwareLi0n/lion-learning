@@ -41,7 +41,7 @@ capture: captura
 detail: detalle
 moment: momento
 screen: pantalla
-
+table: tabla
 ## Conectores:
 with: con
 what: que
