@@ -22,6 +22,8 @@ receiving: recibiendo
 help: ayudar
 close: cerrar
 closed: cerrado
+card: tarjeta
+button: botón
 
 Gateway: puerta
 Broadcast: transmisión
