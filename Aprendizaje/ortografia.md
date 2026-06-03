@@ -9,4 +9,4 @@
 * hazle
 * Elige
 * Rebelde
-* abre
+* abre: del verbo abrir 
