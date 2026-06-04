@@ -43,6 +43,7 @@ detail: detalle
 moment: momento
 screen: pantalla
 table: tabla
+advertisements: anuncios
 ## Conectores:
 with: con
 what: que
