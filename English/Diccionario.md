@@ -44,6 +44,7 @@ moment: momento
 screen: pantalla
 table: tabla
 advertisements: anuncios
+category: categoria
 ## Conectores:
 with: con
 what: que
