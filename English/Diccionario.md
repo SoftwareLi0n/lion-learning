@@ -45,6 +45,7 @@ screen: pantalla
 table: tabla
 advertisements: anuncios
 category: categoria
+allow: permitir
 ## Conectores:
 with: con
 what: que
