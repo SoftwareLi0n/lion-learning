@@ -47,6 +47,7 @@ advertisements: anuncios
 category: categoria
 allow: permitir
 build: construir
+releases: lanzamientos
 ## Conectores:
 with: con
 what: que
