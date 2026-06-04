@@ -46,6 +46,7 @@ table: tabla
 advertisements: anuncios
 category: categoria
 allow: permitir
+build: construir
 ## Conectores:
 with: con
 what: que
