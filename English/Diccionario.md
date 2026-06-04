@@ -61,6 +61,7 @@ is: es
 a: un
 from: de
 in: en
+this: esta
 
 ## Fechas
 yesterday: ayer
