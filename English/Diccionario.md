@@ -33,6 +33,7 @@ search: buscar
 Gateway: puerta
 Broadcast: transmisión
 always: siempre
+option: opcion
 
 Write: Escribir
 files: archivos
