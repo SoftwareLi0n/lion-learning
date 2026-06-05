@@ -22,6 +22,7 @@
 18. SOLID: https://youtu.be/nIOyxmMcIB4?list=PLCKuOXG0bPi0QID2IxzE-SrpmsbY5LbVO
 19. Firebase
 20. Ventas por amazon
+21. rate-limit.
 
 
 Cosa que necesito aprender ruta:
