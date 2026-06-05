@@ -68,6 +68,8 @@ yesterday: ayer
 tomorrow: mañana
 today: hoy
 time: tiempo
+hour: hora
+minute: minuto
 
 
 ## Arquitectura de software
