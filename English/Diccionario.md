@@ -48,6 +48,10 @@ category: categoria
 allow: permitir
 build: construir
 releases: lanzamientos
+device: dispositivo
+note: nota
+settings: ajustes
+short: corto
 ## Conectores:
 with: con
 what: que
