@@ -53,6 +53,7 @@ device: dispositivo
 note: nota
 settings: ajustes
 short: corto
+screenshot: captura de pantalla
 ## Conectores:
 with: con
 what: que
