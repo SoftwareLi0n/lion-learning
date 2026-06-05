@@ -6,7 +6,7 @@ splash: 2048px * 2048px
 ```bash
 ns resources generate icons recursos_base/icon.png
 
-ns resources generate splashes assets/splash.png --background "#FFFFFF"
+ns resources generate splashes recursos_base/splash.png --background "#FFFFFF"
 ```
 
 ### Ajustar the name del package
