@@ -17,6 +17,7 @@ have: tener
 i have: tengo
 row: fila
 column: columna
+columns: columnas
 quantity: cantidad
 send: enviar
 sending: enviando
