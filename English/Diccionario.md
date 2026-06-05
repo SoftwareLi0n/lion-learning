@@ -95,3 +95,4 @@ component: componente
 database: base de datos
 user: usuario
 interface: interfaz
+packages: paquetes
