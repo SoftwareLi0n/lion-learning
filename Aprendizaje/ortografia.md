@@ -10,3 +10,4 @@
 * Elige
 * Rebelde
 * abre: del verbo abrir 
+* sugieres
