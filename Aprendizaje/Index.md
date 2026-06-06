@@ -1,28 +1,27 @@
 ## Falta aprender
 
-1. Flutter
-2. WebSockets - SI
-3. Docker - SI
-4. SEO - SI
-5. AWS (Amazon) o Google Cloud
-6. Microservicios
-7. Subir package a npm
-8. MCP
-9. n8n
-10. Cloud code
-11. Agent Skills
-12. Arquitectura de software (https://youtu.be/UsEx2L-E6-Y)
+1. WebSockets - SI
+2. Docker - SI
+3. SEO - SI
+4. AWS (Amazon) o Google Cloud
+5. Microservicios
+6. Subir package a npm
+7. MCP
+8. n8n
+9. Cloud code
+10. Agent Skills
+11. Arquitectura de software (https://youtu.be/UsEx2L-E6-Y)
 	1. reverse proxy
 	2. https://youtu.be/cIcpq2smW-w
-13. Comunicación entre componentes
-14. **_TypeORM_**
-15. Metodología canva
-16. Google Analytics y Firebase Crashlytics para recopilar datos sobre el uso de la aplicación
-17. Pruebas automáticas
-18. SOLID: https://youtu.be/nIOyxmMcIB4?list=PLCKuOXG0bPi0QID2IxzE-SrpmsbY5LbVO
-19. Firebase
-20. Ventas por amazon
-21. rate-limit.
+12. Comunicación entre componentes
+13. **_TypeORM_**
+14. Metodología canva
+15. Google Analytics y Firebase Crashlytics para recopilar datos sobre el uso de la aplicación
+16. Pruebas automáticas
+17. SOLID: https://youtu.be/nIOyxmMcIB4?list=PLCKuOXG0bPi0QID2IxzE-SrpmsbY5LbVO
+18. Firebase
+19. Ventas por amazon
+20. rate-limit.
 
 
 Cosa que necesito aprender ruta:
