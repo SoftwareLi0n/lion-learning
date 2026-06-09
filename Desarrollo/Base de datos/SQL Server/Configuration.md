@@ -8,3 +8,8 @@ Permiso para crear procedimientos almacenados
 GRANT CREATE PROCEDURE TO [app_agencia];
 GRANT ALTER ON SCHEMA::dbo TO [app_agencia];
 ```
+
+Permitir ejecutar procedimientos almacenados:
+```sql
+GRANT EXECUTE ON OBJECT::dbo.sp_IA_oficina_CRUD TO [app_agencia];
+```
