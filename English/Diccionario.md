@@ -60,6 +60,7 @@ what: que
 yes: si
 for: para
 of: de
+the: el, la
 then: entonces
 now: ahora
 and: y
