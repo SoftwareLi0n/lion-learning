@@ -54,6 +54,7 @@ note: nota
 settings: ajustes
 short: corto
 screenshot: captura de pantalla
+read: leer
 ## Conectores:
 with: con
 what: que
