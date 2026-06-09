@@ -1,19 +1,19 @@
 ## Falta aprender
 
-1. WebSockets - SI
-2. Docker - SI
-3. SEO - SI
+1. [SI] - WebSockets
+2. [SI] - Docker
+3. [SI] - SEO
 4. AWS (Amazon) o Google Cloud
 5. Microservicios
 6. Subir package a npm
 7. MCP
 8. n8n
-9. Cloud code
-10. Agent Skills
+9. [SI] - Cloud code
+10. Agent Skills - SI
 11. Arquitectura de software (https://youtu.be/UsEx2L-E6-Y)
 	1. reverse proxy
 	2. https://youtu.be/cIcpq2smW-w
-12. Comunicación entre componentes
+12. [SI] - Comunicación entre componentes
 13. **_TypeORM_**
 14. Metodología canva
 15. Google Analytics y Firebase Crashlytics para recopilar datos sobre el uso de la aplicación
