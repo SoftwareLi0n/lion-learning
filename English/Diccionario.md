@@ -112,3 +112,4 @@ interface: interfaz
 packages: paquetes
 installation: instalación
 project: proyecto
+development: desarrollo
