@@ -56,6 +56,16 @@ short: corto
 screenshot: captura de pantalla
 read: leer
 information: información
+
+## Pronombres
+i: yo
+you: tú
+he: él
+she: ella
+it: eso
+we: nosotros
+you: vosotros
+they: ellos/ellas
 ## Conectores:
 with: con
 what: que
@@ -71,7 +81,6 @@ a: un
 from: de
 in: en
 this: esta, esto
-you: tú
 your: tu
 
 ## Fechas
