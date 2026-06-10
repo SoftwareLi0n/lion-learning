@@ -71,6 +71,8 @@ a: un
 from: de
 in: en
 this: esta, esto
+you: tú
+your: tu
 
 ## Fechas
 yesterday: ayer
@@ -100,3 +102,4 @@ user: usuario
 interface: interfaz
 packages: paquetes
 installation: instalación
+project: proyecto
