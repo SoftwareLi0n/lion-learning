@@ -1,6 +1,6 @@
 El archivo de configuración para dominios está en:
 ```md
-/etc/nginx/sites-available/`
+/etc/nginx/sites-available/
 ```
 
 Pero los sitios habilitados está en:
