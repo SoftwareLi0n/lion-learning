@@ -82,6 +82,7 @@ from: de
 in: en
 this: esta, esto
 your: tu
+by: por
 
 ## Fechas
 yesterday: ayer
