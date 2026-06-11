@@ -1,7 +1,7 @@
 
 ## Contexto
 - **Arquitectura**: Arquitectura modular basada en características/funcionalidades.
-## Reglas del Frontend
+## Reglas de desarrollo
 ### Modularidad de Vistas
 Al generar código para crear vistas o páginas, se deben aplicar estrictamente los siguientes principios:
   1. **Prohibido crear archivos monolíticos**: Nunca generes todo el código de una página en un solo archivo.
@@ -24,8 +24,10 @@ export interface IUsuario {
 }
 ```
 
-- **Visualización de Errores**: Cuando ocurra un error al consumir la API, la interfaz del frontend debe mostrar siempre el mensaje específico devuelto en la propiedad `message` del error/respuesta del servidor, en lugar de utilizar mensajes estáticos o genéricos.
+### Consumo de API's
+- **Visualización de Errores**: Cuando ocurra un error al consumir la API, se debe mostrar al usuario el error que retorna la API.
 
+### Style
 - **Organización de CSS**: El archivo global `styles.css` solo se utiliza para estilos generales de la aplicación y clases que serán reutilizadas en múltiples componentes. Cualquier estilo o clase específica de un componente debe agregarse obligatoriamente en su propio archivo CSS del componente (ej. `nombre-componente.component.css`).
 
 - **Uso de Modales**: Para mostrar ventanas emergentes o modales en la aplicación, se debe utilizar obligatoriamente el componente Dialog de Angular Material (`MatDialog` de `@angular/material/dialog`), asegurando un comportamiento estándar en accesibilidad, foco y manejo de overlays.
