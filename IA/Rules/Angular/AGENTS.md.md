@@ -1,6 +1,10 @@
 
 ## Contexto
 - **Arquitectura**: Arquitectura modular basada en características/funcionalidades.
+
+## Reglas Generales
+- **Indentación**: El código debe ser indentado obligatoriamente con **4 espacios**.
+- **Respeto a Cambios Manuales**: Si el código actual en el archivo contiene modificaciones manuales realizadas por el programador (variables, parámetros, lógica, etc.), el agente de IA no debe borrarlas ni revertirlas a versiones previas. Se debe respetar el código como está y realizar los nuevos cambios basándose en el estado actual modificado por el usuario.
 ## Reglas de desarrollo
 ### Modularidad de Vistas
 Al generar código para crear vistas o páginas, se deben aplicar estrictamente los siguientes principios:
@@ -28,14 +32,9 @@ export interface IUsuario {
 - **Visualización de Errores**: Cuando ocurra un error al consumir la API, se debe mostrar al usuario el error que retorna la API.
 
 ### Style
-- **Organización de CSS**: El archivo global `styles.css` solo se utiliza para estilos generales de la aplicación y clases que serán reutilizadas en múltiples componentes. Cualquier estilo o clase específica de un componente debe agregarse obligatoriamente en su propio archivo CSS del componente (ej. `nombre-componente.component.css`).
+- **Organización de CSS**: El archivo global `styles.css` solo se utiliza para estilos generales de la aplicación y clases que serán reutilizadas en múltiples componentes. Cualquier estilo o clase específica de un componente debe agregarse obligatoriamente en su propio archivo CSS o SCSS del componente (ej. `nombre-componente.component.css`).
 
-- **Uso de Modales**: Para mostrar ventanas emergentes o modales en la aplicación, se debe utilizar obligatoriamente el componente Dialog de Angular Material (`MatDialog` de `@angular/material/dialog`), asegurando un comportamiento estándar en accesibilidad, foco y manejo de overlays.
+### Angular Material
+- Si se desea utilizar Modal o tablas trabajar con los componentes de angular material como Dialog o Table.
 
   
-
-## Reglas Generales
-
-- **Indentación**: El código debe ser indentado obligatoriamente con **4 espacios**.
-
-- **Respeto a Cambios Manuales**: Si el código actual en el archivo contiene modificaciones manuales realizadas por el programador (variables, parámetros, lógica, etc.), el agente de IA no debe borrarlas ni revertirlas a versiones previas. Se debe respetar el código como está y realizar los nuevos cambios basándose en el estado actual modificado por el usuario.
