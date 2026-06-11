@@ -85,7 +85,7 @@ your: tu
 by: por
 how: cómo
 as: como
-
+rules: reglas
 ## Fechas
 yesterday: ayer
 tomorrow: mañana
