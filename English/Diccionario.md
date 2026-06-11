@@ -68,6 +68,7 @@ it: eso
 we: nosotros
 you: vosotros
 they: ellos/ellas
+
 ## Conectores:
 with: con
 what: que
