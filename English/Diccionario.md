@@ -56,6 +56,7 @@ short: corto
 screenshot: captura de pantalla
 read: leer
 information: información
+see: ver
 
 ## Pronombres
 i: yo
@@ -86,13 +87,14 @@ by: por
 how: cómo
 as: como
 rules: reglas
-## Fechas
+## Tiempos
 yesterday: ayer
 tomorrow: mañana
 today: hoy
 time: tiempo
 hour: hora
 minute: minuto
+wait: esperar
 
 
 ## Arquitectura de software
