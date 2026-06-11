@@ -83,6 +83,8 @@ in: en
 this: esta, esto
 your: tu
 by: por
+how: cómo
+as: como
 
 ## Fechas
 yesterday: ayer
