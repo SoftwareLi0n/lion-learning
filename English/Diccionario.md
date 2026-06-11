@@ -57,6 +57,7 @@ screenshot: captura de pantalla
 read: leer
 information: información
 see: ver
+task: tarea
 
 ## Pronombres
 i: yo
