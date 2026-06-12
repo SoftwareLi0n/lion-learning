@@ -97,8 +97,10 @@ time: tiempo
 hour: hora
 minute: minuto
 wait: esperar
-
-
+week: semana
+day: dia
+month: mes
+year: año
 ## Arquitectura de software
 controller: controlador
 model: modelo
