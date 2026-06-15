@@ -9,7 +9,7 @@
 7. MCP
 8. n8n
 9. [SI] - Cloud code
-10. Agent Skills - SI
+10. [SI] - Agent Skills
 11. Arquitectura de software (https://youtu.be/UsEx2L-E6-Y)
 	1. reverse proxy
 	2. https://youtu.be/cIcpq2smW-w
