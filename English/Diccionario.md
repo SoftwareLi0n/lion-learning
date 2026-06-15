@@ -61,6 +61,9 @@ task: tarea
 box: caja
 Method: Método
 
+## Palabras
+login: iniciar sesión
+
 ## Pronombres
 i: yo
 you: tú
