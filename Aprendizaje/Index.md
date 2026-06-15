@@ -1,27 +1,40 @@
 ## Falta aprender
 
-1. [SI] - WebSockets
-2. [SI] - Docker
-3. [SI] - SEO
-4. AWS (Amazon) o Google Cloud
-5. Microservicios
-6. Subir package a npm
-7. MCP
-8. n8n
-9. [SI] - Cloud code
-10. [SI] - Agent Skills
-11. Arquitectura de software (https://youtu.be/UsEx2L-E6-Y)
+### Front
+[SI] - SEO
+[SI] - Comunicación entre componentes
+### Back
+[SI] - WebSockets
+Microservicios
+Arquitectura de software (https://youtu.be/UsEx2L-E6-Y)
 	1. reverse proxy
 	2. https://youtu.be/cIcpq2smW-w
-12. [SI] - Comunicación entre componentes
-13. **_TypeORM_**
-14. Metodología canva
-15. Google Analytics y Firebase Crashlytics para recopilar datos sobre el uso de la aplicación
-16. Pruebas automáticas
-17. SOLID: https://youtu.be/nIOyxmMcIB4?list=PLCKuOXG0bPi0QID2IxzE-SrpmsbY5LbVO
-18. Firebase
-19. Ventas por amazon
-20. rate-limit.
+n8n
+### SQL Server
+### Servidores
+[SI] - Docker
+AWS (Amazon) o Google Cloud
+### IA
+MCP
+[SI] - Cloud code
+[SI] - Agent Skills
+
+
+1. Subir package a npm
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. **_TypeORM_**
+9. Metodología canva
+10. Google Analytics y Firebase Crashlytics para recopilar datos sobre el uso de la aplicación
+11. Pruebas automáticas
+12. SOLID: https://youtu.be/nIOyxmMcIB4?list=PLCKuOXG0bPi0QID2IxzE-SrpmsbY5LbVO
+13. Firebase
+14. Ventas por amazon
+15. rate-limit.
 
 
 Cosa que necesito aprender ruta:
