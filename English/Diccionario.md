@@ -58,6 +58,8 @@ read: leer
 information: información
 see: ver
 task: tarea
+box: caja
+
 
 ## Pronombres
 i: yo
