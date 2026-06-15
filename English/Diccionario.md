@@ -59,7 +59,7 @@ information: información
 see: ver
 task: tarea
 box: caja
-
+Method: Método
 
 ## Pronombres
 i: yo
