@@ -32,3 +32,6 @@ Ventas por amazon
 
 ### Desarrollo en general
 Subir package a npm
+
+
+Crear reglas para cada tipo de proyecto
