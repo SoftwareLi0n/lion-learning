@@ -35,3 +35,7 @@ Subir package a npm
 
 
 Crear reglas para cada tipo de proyecto
+Crear componentes en figma
+Crear componentes en front
+
+Crear sistema de diseño de Figma, Angular, Nodejs, IA
