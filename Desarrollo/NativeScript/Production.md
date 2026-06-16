@@ -61,3 +61,6 @@ ns build android --release --aab --key-store-path <ruta-a-tu-archivo.jks> --key-
 <key>CFBundleVersion</key>
 <string>1</string>
 ```
+
+
+1. Crear archivo codemagic.yaml
