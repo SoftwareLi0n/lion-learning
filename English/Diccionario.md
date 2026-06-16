@@ -60,6 +60,7 @@ see: ver
 task: tarea
 box: caja
 Method: Método
+common: común
 
 ## Palabras
 login: iniciar sesión
