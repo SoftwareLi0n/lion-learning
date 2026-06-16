@@ -61,6 +61,7 @@ task: tarea
 box: caja
 Method: Método
 common: común
+easy: facil
 
 ## Palabras
 login: iniciar sesión
@@ -95,6 +96,7 @@ by: por
 how: cómo
 as: como
 rules: reglas
+
 ## Tiempos
 yesterday: ayer
 tomorrow: mañana
