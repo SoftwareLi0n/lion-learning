@@ -63,4 +63,6 @@ ns build android --release --aab --key-store-path <ruta-a-tu-archivo.jks> --key-
 ```
 
 
+Crear un "Identifiers" en https://developer.apple.com/account/resources/identifiers/list
+Bundle ID: com.softwarelion.sunfast
 1. Crear archivo codemagic.yaml

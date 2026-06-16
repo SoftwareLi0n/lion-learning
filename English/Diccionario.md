@@ -62,6 +62,7 @@ box: caja
 Method: Método
 common: común
 easy: facil
+manage: administrar
 
 ## Palabras
 login: iniciar sesión
