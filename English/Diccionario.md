@@ -68,6 +68,7 @@ between: entre
 authorized: autorizado
 Excelente: Excellent
 key: llave
+rules: reglas
 
 ## Palabras
 login: iniciar sesión
@@ -101,7 +102,7 @@ your: tu
 by: por
 how: cómo
 as: como
-rules: reglas
+also: tambien
 
 ## Tiempos
 yesterday: ayer
