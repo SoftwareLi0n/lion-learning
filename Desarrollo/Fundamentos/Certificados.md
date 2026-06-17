@@ -2,7 +2,8 @@ Se usan para validar la identidad de una entidad y mantener la seguridad.
 
 Tiene 2 keys y una contraseña:
 1. Public
-2. Private
+2. Private: Es la llave que está guardado dentro de .p12 o .pfx
+3. Contraseña: Sirve para desincriptar el archivo .p12
 
 
 **Types:**
