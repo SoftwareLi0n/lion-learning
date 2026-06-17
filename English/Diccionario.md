@@ -67,6 +67,7 @@ privacy: privacidad
 between: entre
 authorized: autorizado
 Excelente: Excellent
+key: llave
 
 ## Palabras
 login: iniciar sesión
