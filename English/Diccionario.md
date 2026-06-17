@@ -63,6 +63,9 @@ Method: Método
 common: común
 easy: facil
 manage: administrar
+privacy: privacidad
+between: entre
+authorized: autorizado
 
 ## Palabras
 login: iniciar sesión
