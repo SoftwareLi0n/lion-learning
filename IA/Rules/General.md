@@ -1,0 +1,1 @@
+cmd /c mklink /H "D:\projects\projects-lion\admin\admin-back\AGENTS.md" "D:\study\lion-learning\IA\Rules\Nodejs\AGENTS.md"
