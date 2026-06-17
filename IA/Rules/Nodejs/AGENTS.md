@@ -6,7 +6,7 @@ Este documento contiene las reglas de desarrollo obligatorias para este proyecto
 
 - **Indentación**: El código debe ser indentado obligatoriamente con **4 espacios**.
 - **Gestor de Paquetes**: Se debe usar exclusivamente `pnpm` (no usar `npm` ni `yarn`).
-- **Interfaces**: Las interfaces siempre deben definirse en un archivo independiente con la extensión `.interfaces.ts` (tanto en el frontend como en el backend), nunca dentro de otros archivos como `.model.ts`.
+- **Interfaces**: Las interfaces siempre deben definirse en un archivo independiente con el nombre `I$nombreInterface.ts` (tanto en el frontend como en el backend), nunca dentro de otros archivos como `.model.ts`.
 - **Respeto a Cambios Manuales**: Si el código actual en el archivo contiene modificaciones manuales realizadas por el programador (variables, parámetros, lógica, etc.), el agente de IA no debe borrarlas ni revertirlas a versiones previas. Se debe respetar el código como está y realizar los nuevos cambios basándose en el estado actual modificado por el usuario. 
 
 ## Reglas del Backend (back-agencia)
@@ -16,7 +16,7 @@ Este documento contiene las reglas de desarrollo obligatorias para este proyecto
   - Archivos `.model.ts`: Único punto de contacto con la base de datos (repositorios/consultas).
   - Archivos `.service.ts`: Contiene la lógica y validaciones del negocio.
 - **Paso de Datos**: No se debe enviar el objeto `req.body` desestructurado de forma genérica (como `{ ...req.body }`) a los servicios. Se deben mapear y extraer las propiedades de forma explícita en el controlador para que el programador conozca con claridad qué campos se procesan.
-- **Uso de Interfaces**: Se debe evitar el uso de tipos de utilidad como `Omit<Interface, 'prop'>` para representar payloads o datos de entrada. En su lugar, se debe crear una interfaz específica independiente (por ejemplo, `OperacionInput`) en el archivo `.interfaces.ts` correspondiente.
+- **Uso de Interfaces**: Se debe evitar el uso de tipos de utilidad como `Omit<Interface, 'prop'>` para representar payloads o datos de entrada. En su lugar, se debe crear una interfaz específica independiente (por ejemplo, `OperacionInput`).
 - **Pruebas de API**: Cada carpeta de característica debe contener su propio archivo `.http` para probar y documentar las llamadas REST.
 - **Formato de Respuestas de API**:
   - Toda respuesta de la API debe retornar un JSON con la estructura:
