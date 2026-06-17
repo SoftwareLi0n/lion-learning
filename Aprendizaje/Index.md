@@ -39,3 +39,5 @@ Crear componentes en figma
 Crear componentes en front
 
 Crear sistema de diseño de Figma, Angular, Nodejs, IA
+
+Crear sistema de todo el negocio
