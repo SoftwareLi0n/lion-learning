@@ -66,6 +66,7 @@ manage: administrar
 privacy: privacidad
 between: entre
 authorized: autorizado
+Excelente: Excellent
 
 ## Palabras
 login: iniciar sesión
