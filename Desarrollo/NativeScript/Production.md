@@ -49,6 +49,7 @@ ns build android --release --aab --key-store-path <ruta-a-tu-archivo.jks> --key-
 ```
 
 ## iOS
+
 ### Subir a producción
 1. Actualizar versión
    Archivo: ios/App/App/Info.plist
@@ -62,7 +63,7 @@ ns build android --release --aab --key-store-path <ruta-a-tu-archivo.jks> --key-
 <string>1</string>
 ```
 
-
-Crear un "Identifiers" en https://developer.apple.com/account/resources/identifiers/list
-Bundle ID: com.softwarelion.sunfast
-1. Crear archivo codemagic.yaml
+2. Crear un "Identifiers" en https://developer.apple.com/account/resources/identifiers/list
+	Bundle ID: com.softwarelion.sunfast
+3. Crear profile y subirlo a codemagic 
+4. Crear archivo codemagic.yaml
