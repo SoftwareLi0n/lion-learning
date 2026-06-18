@@ -103,6 +103,7 @@ by: por
 how: cómo
 as: como
 also: tambien
+why: ¿por que?
 
 ## Tiempos
 yesterday: ayer
