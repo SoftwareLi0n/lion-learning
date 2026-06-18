@@ -6,7 +6,7 @@ Este documento contiene las reglas de desarrollo obligatorias para este proyecto
 
 - **Indentación**: El código debe ser indentado obligatoriamente con **4 espacios**.
 - **Gestor de Paquetes**: Se debe usar exclusivamente `pnpm` (no usar `npm` ni `yarn`).
-- **Interfaces**: Las interfaces siempre deben definirse en un archivo independiente con el nombre `I$nombreInterface.ts` (tanto en el frontend como en el backend), nunca dentro de otros archivos como `.model.ts`.
+- **Interfaces**: Todas las interfaces siempre deben definirse en un archivo con el nombre `I$NombreFuncionalida.ts`, nunca dentro de otros archivos como `.model.ts`. (Todas las interfaces en un archivo por funcionalidad)
 - **Respeto a Cambios Manuales**: Si el código actual en el archivo contiene modificaciones manuales realizadas por el programador (variables, parámetros, lógica, etc.), el agente de IA no debe borrarlas ni revertirlas a versiones previas. Se debe respetar el código como está y realizar los nuevos cambios basándose en el estado actual modificado por el usuario. 
 
 ## Reglas del Backend (back-agencia)
