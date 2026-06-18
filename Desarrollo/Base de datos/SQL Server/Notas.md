@@ -35,12 +35,18 @@ END
 ```sql
 SCOPE_IDENTITY();
 ```
-## Evitar que se inserte valor duplicado en una columna
-```sql
-ALTER TABLE api_key
-ADD CONSTRAINT UQ_ApiKey UNIQUE (llave); -- la columna se llama "llave"
-```
 
+
+### Curiosidades
+Puedo saber el nuevo valor que tendrá @saldo_actual
+```sql
+declare @saldo_actual decimal(18, 2);
+
+update oficina
+set 
+	@saldo_actual = dinero_caja = isnull(dinero_caja, 0) + @total
+where id_oficina = @id_oficina_operacion;
+```
 ## Agregar columna a una tabla
 
 1. Agregar columna
