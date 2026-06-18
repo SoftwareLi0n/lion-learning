@@ -104,6 +104,7 @@ how: cómo
 as: como
 also: tambien
 why: ¿por que?
+can: poder
 
 ## Tiempos
 yesterday: ayer
