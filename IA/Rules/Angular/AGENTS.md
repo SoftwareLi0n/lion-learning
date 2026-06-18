@@ -25,7 +25,6 @@ export interface IUsuario {
   id: number;
   nombres: string;
   correo: string;
-
 }
 ```
 
