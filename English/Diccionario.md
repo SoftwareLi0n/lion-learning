@@ -117,6 +117,11 @@ week: semana
 day: dia
 month: mes
 year: año
+
+## Tamaños
+big: grande
+tall: alto
+small: pequeño
 ## Arquitectura de software
 controller: controlador
 model: modelo
