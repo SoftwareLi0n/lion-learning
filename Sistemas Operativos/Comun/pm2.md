@@ -15,3 +15,8 @@ npm install -g pm2-windows-startup
 pm2-startup install
 pm2 save
 ```
+
+Ver a detalle un proceso
+```bash
+pm2 show 0 (id)
+```
