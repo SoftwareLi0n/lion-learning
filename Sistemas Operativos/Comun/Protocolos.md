@@ -1,2 +1,2 @@
-RDP: Remote Desktop Protocol
-**xrdp**: 
+RDP(Remote Desktop Protocol): Permite la comunicación entre dos computadoras windows (ambas computadoras hablan el "lenguaje" rdp)
+**xrdp**: Sirve como el traductor de un windows a un linux (traduce el rdp de windows a linux).
