@@ -17,3 +17,8 @@ Ejecutar scrips en el contenedor
 ```bash
 sudo docker exec servidor-sql bash -c "rm /var/opt/mssql/*.bak"
 ```
+
+Encender un contenedor
+```bash
+sudo docker start $nombre_contenedor
+```
