@@ -144,3 +144,4 @@ packages: paquetes
 installation: instalación
 project: proyecto
 development: desarrollo
+code: código
