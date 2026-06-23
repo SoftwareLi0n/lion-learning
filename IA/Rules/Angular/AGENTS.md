@@ -1,38 +1,66 @@
+# Reglas del Frontend (Angular)
 
-## Contexto
-- **Arquitectura**: Arquitectura modular basada en características/funcionalidades.
+> **IMPORTANTE**: Estas reglas son específicas del proyecto frontend Angular. Las reglas generales de código (indentación, interfaces, gestor de paquetes, etc.) se encuentran en `rules/general/AGENTS.md` y también son de cumplimiento obligatorio.
 
-## Reglas Generales
-- **Indentación**: El código debe ser indentado obligatoriamente con **4 espacios**.
-- **Respeto a Cambios Manuales**: Si el código actual en el archivo contiene modificaciones manuales realizadas por el programador (variables, parámetros, lógica, etc.), el agente de IA no debe borrarlas ni revertirlas a versiones previas. Se debe respetar el código como está y realizar los nuevos cambios basándose en el estado actual modificado por el usuario.
+---
 
-## Reglas de desarrollo
-### Modularidad de Vistas
-Al generar código para crear vistas o páginas, se deben aplicar estrictamente los siguientes principios:
-  1. **Prohibido crear archivos monolíticos**: Nunca generes todo el código de una página en un solo archivo.
-  2. **División por responsabilidad**: Divide la vista principal en sub-elementos más pequeños y manejables.
-  3. **Estructura de carpetas para hijos**: Si los elementos visuales secundarios pertenecen únicamente a esa página y no se reutilizarán en otras partes del sistema, debes crear una carpeta llamada `components` dentro del directorio de la vista padre.
-  4. **Aislamiento de código**: Coloca cada elemento secundario dentro de esa carpeta `components`, asegurando que cada uno tenga su propio archivo TypeScript, plantilla HTML y hoja de estilos para evitar archivos gigantes y garantizar el mantenimiento escalable.
-### Interfaces
--  **Creación de interfaces**: Las interfaces siempre crearlas en un archivo aparte que inicie con `I$nombreinterface.ts`.
-- **Uso de any**: Usar `any` solo cuando sea muy complejo el objeto, luego siempre usar interfaces.
+## 1. Contexto del Proyecto
 
-**Ejemplo de interfaces:**
-Archivo: `IUsuario.ts`
-Contenido:
-```typescript
-export interface IUsuario {
-  id: number;
-  nombres: string;
-  correo: string;
-}
+- **Framework**: Angular
+- **Arquitectura**: Modular, organizada por características/funcionalidades (feature-based).
+
+---
+
+## 2. Modularidad de Vistas
+
+Al crear vistas o páginas, se deben cumplir **obligatoriamente** los siguientes principios:
+
+| Regla | Descripción |
+|-------|-------------|
+| **No monolitos** | Nunca colocar todo el código de una página en un solo archivo. |
+| **División por responsabilidad** | Separar la vista principal en sub-elementos pequeños y manejables. |
+| **Carpeta `components/`** | Si los elementos secundarios son exclusivos de esa vista (no reutilizables), crear una carpeta `components/` dentro del directorio de la vista padre. |
+| **Aislamiento de archivos** | Cada sub-elemento debe tener su propio archivo `.ts`, `.html` y `.css`/`.scss`. |
+
+```
+✅ Correcto:
+   transferencias-recibidas/
+   ├── transferencias-recibidas.component.ts
+   ├── transferencias-recibidas.component.html
+   ├── transferencias-recibidas.component.css
+   └── components/
+       ├── detalle-transferencia/
+       │   ├── detalle-transferencia.component.ts
+       │   ├── detalle-transferencia.component.html
+       │   └── detalle-transferencia.component.css
+
+❌ Incorrecto:
+   transferencias-recibidas/
+   ├── transferencias-recibidas.component.ts  ← todo el código aquí (monolito)
 ```
 
-### Consumo de API's
-- **Visualización de Errores**: Cuando ocurra un error al consumir la API, se debe mostrar al usuario el error que retorna la API.
+---
 
-### Style
-- **Organización de CSS**: El archivo global `styles.css` solo se utiliza para estilos generales de la aplicación y clases que serán reutilizadas en múltiples componentes. Cualquier estilo o clase específica de un componente debe agregarse obligatoriamente en su propio archivo CSS o SCSS del componente (ej. `nombre-componente.component.css`).
+## 3. Consumo de APIs
 
-### Angular Material
-- Si se desea utilizar Modal o tablas trabajar con los componentes de angular material como Dialog o Table.
+- **Mostrar errores al usuario**: Cuando una llamada a la API falle, se debe capturar el mensaje de error que retorna la API y mostrarlo al usuario de forma visible (por ejemplo, con un snackbar o alerta).
+- **No silenciar errores**: Nunca usar `catch` vacíos ni ignorar respuestas de error.
+
+---
+
+## 4. Estilos CSS
+
+| Alcance | Archivo | Uso permitido |
+|---------|---------|---------------|
+| **Global** | `styles.css` | Solo estilos generales de la aplicación y clases reutilizadas en múltiples componentes. |
+| **Componente** | `nombre-componente.component.css` | Estilos y clases específicas de ese componente. |
+
+- **Prohibido**: Agregar estilos específicos de un componente en `styles.css`.
+
+---
+
+## 5. Angular Material
+
+- **Modales**: Utilizar `MatDialog` para ventanas modales.
+- **Tablas**: Utilizar `MatTable` para la visualización de datos tabulares.
+- Siempre preferir componentes de Angular Material cuando exista uno que cubra la necesidad.
