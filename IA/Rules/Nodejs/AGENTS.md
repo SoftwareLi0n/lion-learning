@@ -1,43 +1,126 @@
 # Reglas de Desarrollo para Agentes de IA
 
-Este documento contiene las reglas de desarrollo obligatorias para este proyecto. Todos los agentes de IA deben seguir estas pautas estrictamente.
- 
-## Reglas Generales
+> **IMPORTANTE**: Estas reglas son OBLIGATORIAS. Todo código generado debe cumplirlas sin excepción.
 
-- **Indentación**: El código debe ser indentado obligatoriamente con **4 espacios**.
-- **Gestor de Paquetes**: Se debe usar exclusivamente `pnpm` (no usar `npm` ni `yarn`).
-- **Interfaces**: Todas las interfaces siempre deben definirse en un archivo con el nombre `I$NombreFuncionalida.ts`, nunca dentro de otros archivos como `.model.ts`. (Todas las interfaces en un archivo por funcionalidad)
-- **Respeto a Cambios Manuales**: Si el código actual en el archivo contiene modificaciones manuales realizadas por el programador (variables, parámetros, lógica, etc.), el agente de IA no debe borrarlas ni revertirlas a versiones previas. Se debe respetar el código como está y realizar los nuevos cambios basándose en el estado actual modificado por el usuario. 
+---
 
-## Reglas del Backend (back-agencia)
 
-- **Arquitectura**: Arquitectura modular basada en características/funcionalidades.
-- **Responsabilidades**:
-  - Archivos `.model.ts`: Único punto de contacto con la base de datos (repositorios/consultas).
-  - Archivos `.service.ts`: Contiene la lógica y validaciones del negocio.
-- **Paso de Datos**: No se debe enviar el objeto `req.body` desestructurado de forma genérica (como `{ ...req.body }`) a los servicios. Se deben mapear y extraer las propiedades de forma explícita en el controlador para que el programador conozca con claridad qué campos se procesan.
-- **Uso de Interfaces**: Se debe evitar el uso de tipos de utilidad como `Omit<Interface, 'prop'>` para representar payloads o datos de entrada. En su lugar, se debe crear una interfaz específica independiente (por ejemplo, `OperacionInput`).
-- **Pruebas de API**: Cada carpeta de característica debe contener su propio archivo `.http` para probar y documentar las llamadas REST.
-- **Formato de Respuestas de API**:
-  - Toda respuesta de la API debe retornar un JSON con la estructura:
+## 2. Arquitectura del Backend
 
-    ```json
-    {
-      "success": true, // o false en caso de error
-      "message": "Mensaje informativo descriptivo",
-      "result": null // Datos de la consulta u operación
-    }
-    ```
+### 2.1 Estructura de Carpetas
 
-  - **Código de Estado HTTP**: Las respuestas exitosas deben usar los códigos HTTP adecuados (200 OK, 201 Created para creaciones). Las respuestas con errores deben usar códigos de error HTTP tradicionales (400 Bad Request para validaciones o errores del cliente, 401 Unauthorized para autenticación, 404 Not Found cuando no se encuentra el recurso, 500 Internal Server Error para fallas en el servidor o base de datos).
+```
+src/
+├── config/              # Configuración (DB, variables de entorno)
+│   ├── db.ts
+│   └── env.ts
+├── features/            # Módulos organizados por entidad/funcionalidad
+│   ├── routes.ts        # Registro central de rutas
+│   └── <funcionalidad>/       # Carpeta por funcionalidad
+│       ├── <entidad>.interfaces.ts   # Interfaces de la entidad
+│       ├── <entidad>.model.ts        # Acceso a base de datos
+│       ├── <entidad>.service.ts      # Lógica de negocio
+│       ├── <entidad>.controller.ts   # Manejo de peticiones HTTP
+│       ├── <entidad>.route.ts        # Definición de rutas
+│       └── <entidad>.http            # Pruebas REST
+└── shared/              # Código compartido entre módulos
+    ├── interfaces/      # Interfaces globales (api-response, etc.)
+    └── middlewares/      # Middlewares (auth, etc.)
+```
 
-## Reglas de Base de Datos
-- **Motor**: SQL Server.
-- **Nomenclatura de Procedimientos Almacenados**: `sp_IA_<nombre_tabla>_<accion>` (ejemplo: `sp_IA_oficina_CRUD`).
-- **Parámetro CRUD**: Para los SP que implementen un CRUD, se debe enviar un parámetro llamado `@crud` tipo `CHAR(1)` con los valores:
-  - `'C'` (Create)
-  - `'R'` (Read)
-  - `'U'` (Update)
-  - `'D'` (Delete)
+### 2.2 Responsabilidades por Archivo
 
-- **Creación de Procedimientos Almacenados**: Cuando se solicite la creación de un procedimiento almacenado, no se debe intentar crear la tabla (ya existe en la base de datos). El agente debe verificar la estructura de la(s) tabla(s) en la base de datos y únicamente retornar el código del procedimiento en el chat para su verificación y ejecución manual por parte del usuario. Los scripts de los procedimientos no deben guardarse en la carpeta `database` del proyecto, ni en ninguna otra carpeta.
+| Archivo              | Responsabilidad                                | Qué NO debe hacer                          |
+|----------------------|------------------------------------------------|--------------------------------------------|
+| `.interfaces.ts`     | Definir interfaces (`IEntidad`, `IEntidadInput`) | Lógica, consultas, validaciones           |
+| `.model.ts`          | Único punto de contacto con la base de datos    | Validaciones de negocio                    |
+| `.service.ts`        | Lógica y validaciones de negocio                | Acceso directo a BD, manejo de `req`/`res` |
+| `.controller.ts`     | Recibir peticiones HTTP, mapear datos, responder | Consultas a BD, lógica de negocio compleja |
+| `.route.ts`          | Definir rutas y aplicar middlewares             | Lógica de ningún tipo                      |
+| `.http`              | Documentar y probar endpoints REST              | —                                          |
+
+### 2.3 Nomenclatura de Clases
+
+| Archivo              | Nombre de la Clase        | Ejemplo                        |
+|----------------------|---------------------------|--------------------------------|
+| `.model.ts`          | Nombre directo de entidad | `Cliente`, `Oficina`, `User`   |
+| `.service.ts`        | Entidad + `Service`       | `ClienteService`, `OficinaService` |
+| `.controller.ts`     | Entidad + `Controller`    | `ClienteController`, `OficinaController` |
+
+```
+✅ Correcto en modelo:    export class Cliente { static async getAll() { ... } }
+❌ Incorrecto en modelo:  export class ClienteRepository { ... }  // No usar sufijo "Repository"
+```
+
+### 2.4 Flujo de Datos (Controller → Service → Model)
+
+El controller **debe mapear explícitamente** las propiedades del `req.body` antes de enviarlas al servicio. Nunca pasar `req.body` directamente ni con spread (`{ ...req.body }`).
+
+```typescript
+// ✅ Correcto
+const data: IClienteInput = {
+    codigo_tipo_documento,
+    numero_documento,
+    nombre,
+    direccion,
+    celular
+};
+const result = await clienteService.create(data);
+
+// ❌ Incorrecto
+const result = await clienteService.create(req.body);
+const result = await clienteService.create({ ...req.body });
+```
+
+### 2.5 Formato de Respuestas API
+
+Toda respuesta debe usar las funciones `successResponse()` y `errorResponse()` de `shared/interfaces/api-response.interfaces.ts`:
+
+```json
+{
+    "success": true,
+    "message": "Mensaje descriptivo",
+    "result": null
+}
+```
+
+### 2.6 Códigos de Estado HTTP
+
+| Situación                 | Código |
+|---------------------------|--------|
+| Operación exitosa         | `200`  |
+| Recurso creado            | `201`  |
+| Error de validación/cliente | `400` |
+| No autorizado             | `401`  |
+| Recurso no encontrado     | `404`  |
+| Error interno del servidor | `500` |
+
+---
+
+## 3. Reglas de Base de Datos
+
+### 3.1 Motor
+- **SQL Server** con el paquete `mssql`.
+
+### 3.2 Nomenclatura de Procedimientos Almacenados
+- Formato: `sp_IA_<nombre_tabla>_<accion>`
+- Ejemplo: `sp_IA_oficina_CRUD`, `sp_IA_transaccion_operacion_guardar`
+
+### 3.3 Parámetro CRUD
+Los SP tipo CRUD reciben un parámetro `@crud CHAR(1)`:
+
+| Valor | Acción |
+|-------|--------|
+| `'C'` | Create |
+| `'R'` | Read   |
+| `'U'` | Update |
+| `'D'` | Delete |
+
+### 3.4 Creación de Procedimientos Almacenados
+- **No intentar crear tablas**: las tablas ya existen en la base de datos.
+- Solo retornar el código SQL del procedimiento en el chat para verificación manual del usuario.
+- **No guardar scripts SQL** en ninguna carpeta del proyecto.
+
+### 3.5 Prohibición de Cambios Directos
+- **Queda estrictamente prohibido** ejecutar cambios directos en la base de datos.
+- Cualquier modificación necesaria debe comunicarse al usuario para ejecución manual.
