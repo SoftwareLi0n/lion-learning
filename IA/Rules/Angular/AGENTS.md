@@ -56,6 +56,7 @@ Al crear vistas o páginas, se deben cumplir **obligatoriamente** los siguientes
 | **Componente** | `nombre-componente.component.css` | Estilos y clases específicas de ese componente. |
 
 - **Prohibido**: Agregar estilos específicos de un componente en `styles.css`.
+- **Prohibido**: Definir estilos en línea directamente en el archivo HTML (mediante el atributo `style="..."`). Cualquier regla de estilo debe ser escrita en el archivo CSS o SCSS correspondiente y aplicada al elemento usando clases (`class="..."`).
 
 ---
 
