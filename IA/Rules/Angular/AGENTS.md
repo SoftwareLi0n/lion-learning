@@ -62,6 +62,8 @@ Al crear vistas o páginas, se deben cumplir **obligatoriamente** los siguientes
 
 ## 5. Angular Material
 
-- **Modales**: Utilizar `MatDialog` para ventanas modales.
+- **Modales**: 
+  1. **Uso obligatorio de MatDialog**: Utilizar siempre el servicio de modales de Angular Material (`MatDialog`) para abrir y gestionar las ventanas modales. Está estrictamente prohibido usar modales personalizadas basadas en elementos HTML planos e inline en la misma plantilla (por ejemplo, usando `*ngIf` con clases como `.modal-overlay` o `.modal-card`).
+  2. **Creación como Componentes Independientes**: Cada ventana modal debe ser creada obligatoriamente como un componente dedicado e independiente (por ejemplo, `DetalleTransferenciaDialogComponent`). Estos diálogos se deben abrir de manera programática mediante `this.dialog.open(ComponenteModal, { data: ... })` y cerrarse usando `this.dialogRef.close()`.
 - **Tablas**: Utilizar `MatTable` para la visualización de datos tabulares.
 - Siempre preferir componentes de Angular Material cuando exista uno que cubra la necesidad.
