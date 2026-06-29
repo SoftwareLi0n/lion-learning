@@ -1,4 +1,6 @@
-1. El nicho soy yo: Mostrar el proceso de la empresa, software y resultados, fracasos, exitos, etc.
+1. El nicho soy yo: 
+Acción: Mostrar el proceso de la empresa, software y resultados, fracasos, éxitos, etc.
+Beneficio: Inspirar, enseñar, entretenerse.
 	* Logros
 	* Valores
 	* Experiencia
