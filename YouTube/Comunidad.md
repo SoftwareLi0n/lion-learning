@@ -6,4 +6,5 @@
 	* Contras
 	* Etc
 
-2. 
+2. Ver en que tema tienes autoridad y eres único, nadie puede igualarte
+3. 
