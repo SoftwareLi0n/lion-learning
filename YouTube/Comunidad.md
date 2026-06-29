@@ -1,4 +1,4 @@
-1. El nicho soy yo: compartir
+1. El nicho soy yo: Mostrar el proceso de la empresa, software y resultados, fracasos, exitos, etc.
 	* Logros
 	* Valores
 	* Experiencia
