@@ -5,7 +5,7 @@ Tarde: Lion
 
 
 ### YouTube
-Lunes: Grabar
+Lunes: Grabar 
 Martes: Editar
 Miercoles: Reels
 Jueves: Idea
