@@ -64,6 +64,8 @@ Excelente: Excellent
 key: llave
 rules: reglas
 Only: Solo
+free: libre
+
 
 
 ### Cocina
