@@ -131,8 +131,10 @@ before: antes
 big: grande
 tall: alto
 small: pequeño
+short: corto
+long: largo
 
-## Arquitectura de software
+## software
 controller: controlador
 model: modelo
 router: enrutador
@@ -144,8 +146,6 @@ providers: proveedores
 provider: proveedor
 config: configuración
 component: componente
-
-## Software
 database: base de datos
 user: usuario
 interface: interfaz
@@ -155,9 +155,6 @@ project: proyecto
 development: desarrollo
 code: código
 events: eventos
-
-
-### Sistemas
 dashboard: tablero
 build: construir
 release: lanzamientos
@@ -184,3 +181,8 @@ door: puerta
 window: ventana
 table: mesa
 chair: silla
+
+### estado de animo
+happy: feliz
+sad: triste
+angry: enojado
