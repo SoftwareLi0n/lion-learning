@@ -176,3 +176,11 @@ book: libre
 notebook: cuaderno 
 pen: lapicero
 pencil: lapiz
+
+### casa
+home: casa
+mirror: espejo
+door: puerta
+window: ventana
+table: mesa
+chair: silla
