@@ -70,6 +70,10 @@ Excelente: Excellent
 key: llave
 rules: reglas
 
+### Cocina
+oil: aceite
+rice: arroz
+sugar: azucar
 ## Palabras
 login: iniciar sesión
 
