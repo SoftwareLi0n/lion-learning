@@ -66,20 +66,17 @@ rules: reglas
 Only: Solo
 free: libre
 
-
-
-### Cocina
+## Cocina
 oil: aceite
 rice: arroz
 sugar: azucar
 
-### Cuerpo
+## Cuerpo
 body: cuerpo
 head: cabeza
 hand: mano
 eye: ojo
 face: cara
-
 
 ## Pronombres
 i: yo
