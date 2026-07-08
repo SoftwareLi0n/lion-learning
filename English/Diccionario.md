@@ -5,6 +5,7 @@ send: enviar
 sending: enviando
 receiving: recibiendo
 message: mensaje
+
 ## Palabras
 focus: enfocar
 Target: Objetivo
@@ -130,6 +131,7 @@ before: antes
 big: grande
 tall: alto
 small: pequeño
+
 ## Arquitectura de software
 controller: controlador
 model: modelo
@@ -164,3 +166,7 @@ closed: cerrado
 button: botón
 login: iniciar sesión
 register: registra
+
+### ropa
+sneakers: zapatillas
+socks: medias 
