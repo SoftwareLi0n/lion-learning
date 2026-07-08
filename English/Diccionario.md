@@ -75,6 +75,13 @@ oil: aceite
 rice: arroz
 sugar: azucar
 
+### Cuerpo
+body: cuerpo
+head: cabeza
+hand: mano
+eye: ojo
+face: cara
+
 ## Palabras
 login: iniciar sesión
 
