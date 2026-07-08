@@ -46,8 +46,6 @@ category: categoria
 allow: permitir
 device: dispositivo
 note: nota
-settings: ajustes
-short: corto
 screenshot: captura de pantalla
 read: leer
 information: información
@@ -60,9 +58,7 @@ easy: facil
 manage: administrar
 privacy: privacidad
 between: entre
-authorized: autorizado
 Excelente: Excellent
-key: llave
 rules: reglas
 Only: Solo
 free: libre
@@ -163,6 +159,9 @@ closed: cerrado
 button: botón
 login: iniciar sesión
 register: registra
+key: llave
+settings: ajustes
+authorized: autorizado
 
 ### ropa
 sneakers: zapatillas
