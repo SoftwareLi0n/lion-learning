@@ -1,6 +1,10 @@
 ## Comunicacion básica
 hello: hola
-
+how are you: como estás
+send: enviar
+sending: enviando
+receiving: recibiendo
+message: mensaje
 ## Palabras
 focus: enfocar
 Target: Objetivo
@@ -19,15 +23,12 @@ row: fila
 column: columna
 columns: columnas
 quantity: cantidad
-send: enviar
-sending: enviando
-receiving: recibiendo
+
 help: ayudar
-close: cerrar
-closed: cerrado
+
 card: tarjeta
-button: botón
-message: mensaje
+
+
 new: nueva, nuevo
 credentials: credenciales
 search: buscar
@@ -47,8 +48,6 @@ table: tabla
 advertisements: anuncios
 category: categoria
 allow: permitir
-build: construir
-releases: lanzamientos
 device: dispositivo
 note: nota
 settings: ajustes
@@ -157,3 +156,12 @@ installation: instalación
 project: proyecto
 development: desarrollo
 code: código
+
+
+### Sistemas
+dashboard: tablero
+build: construir
+release: lanzamientos
+close: cerrar
+closed: cerrado
+button: botón
