@@ -170,3 +170,9 @@ register: registra
 ### ropa
 sneakers: zapatillas
 socks: medias 
+
+### libreria
+book: libre
+notebook: cuaderno 
+pen: lapicero
+pencil: lapiz
