@@ -74,6 +74,7 @@ rules: reglas
 oil: aceite
 rice: arroz
 sugar: azucar
+
 ## Palabras
 login: iniciar sesión
 
