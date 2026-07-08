@@ -23,12 +23,8 @@ row: fila
 column: columna
 columns: columnas
 quantity: cantidad
-
 help: ayudar
-
 card: tarjeta
-
-
 new: nueva, nuevo
 credentials: credenciales
 search: buscar
@@ -36,7 +32,6 @@ Gateway: puerta
 Broadcast: transmisión
 always: siempre
 option: opcion
-
 Write: Escribir
 files: archivos
 execute: ejecutar
@@ -68,6 +63,8 @@ authorized: autorizado
 Excelente: Excellent
 key: llave
 rules: reglas
+Only: Solo
+
 
 ### Cocina
 oil: aceite
@@ -81,8 +78,6 @@ hand: mano
 eye: ojo
 face: cara
 
-## Palabras
-login: iniciar sesión
 
 ## Pronombres
 i: yo
@@ -129,6 +124,8 @@ week: semana
 day: dia
 month: mes
 year: año
+after: despues
+before: antes
 
 ## Tamaños
 big: grande
@@ -156,6 +153,7 @@ installation: instalación
 project: proyecto
 development: desarrollo
 code: código
+events: eventos
 
 
 ### Sistemas
@@ -165,3 +163,5 @@ release: lanzamientos
 close: cerrar
 closed: cerrado
 button: botón
+login: iniciar sesión
+register: registra
