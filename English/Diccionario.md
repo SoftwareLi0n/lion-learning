@@ -162,6 +162,7 @@ register: registra
 key: llave
 settings: ajustes
 authorized: autorizado
+parameters: parámetros
 
 ### ropa
 sneakers: zapatillas
@@ -185,3 +186,7 @@ chair: silla
 happy: feliz
 sad: triste
 angry: enojado
+
+
+### numeros
+three: tres
