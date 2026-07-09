@@ -187,6 +187,5 @@ happy: feliz
 sad: triste
 angry: enojado
 
-
 ### numeros
 three: tres
