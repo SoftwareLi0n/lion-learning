@@ -53,3 +53,7 @@
        empresas: ISubUserEmpresa[]
    ): Promise<any> { ... }
 ```
+
+### 1.6 Valores por Defecto
+- **No asumir valores por defecto** (ej. en variables de entorno, configuraciones o cualquier otro código) si no existen o no fueron proporcionados.
+- Es preferible que el sistema falle o que la variable quede como `undefined` antes que inyectar valores inventados.
