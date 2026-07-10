@@ -11,9 +11,9 @@
 
 ```
 src/
-├── config/              # Configuración (DB, variables de entorno)
+├── config/              # Configuración (DB, variables de entorno, datos fijos)
 │   ├── db.ts
-│   └── env.ts
+│   └── settings.ts
 ├── features/            # Módulos organizados por entidad/funcionalidad
 │   ├── routes.ts        # Registro central de rutas
 │   └── <funcionalidad>/       # Carpeta por funcionalidad
