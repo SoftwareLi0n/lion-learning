@@ -24,7 +24,7 @@ src/
 │       ├── <entidad>.route.ts        # Definición de rutas
 │       └── <entidad>.http            # Pruebas REST
 └── shared/              # Código compartido entre módulos
-    ├── interfaces/      # Interfaces globales (api-response, etc.)
+    ├── interfaces/      # Interfaces globales
     └── middlewares/      # Middlewares (auth, etc.)
 ```
 
