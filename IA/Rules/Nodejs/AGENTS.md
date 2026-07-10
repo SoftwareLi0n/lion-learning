@@ -41,11 +41,11 @@ src/
 
 ### 2.3 Nomenclatura de Clases
 
-| Archivo              | Nombre de la Clase        | Ejemplo                        |
-|----------------------|---------------------------|--------------------------------|
-| `.model.ts`          | Nombre directo de entidad | `Cliente`, `Oficina`, `User`   |
-| `.service.ts`        | Entidad + `Service`       | `ClienteService`, `OficinaService` |
-| `.controller.ts`     | Entidad + `Controller`    | `ClienteController`, `OficinaController` |
+| Nombre de Archivo | Nombre de la Clase        | Ejemplo de Clase                         |
+| ----------------- | ------------------------- | ---------------------------------------- |
+| `.model.ts`       | Nombre directo de entidad | `Cliente`, `Oficina`, `User`             |
+| `.service.ts`     | Entidad + `Service`       | `ClienteService`, `OficinaService`       |
+| `.controller.ts`  | Entidad + `Controller`    | `ClienteController`, `OficinaController` |
 
 ```
 ✅ Correcto en modelo:    export class Cliente { static async getAll() { ... } }
