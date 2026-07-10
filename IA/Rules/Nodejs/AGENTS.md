@@ -43,13 +43,14 @@ src/
 
 | Nombre de Archivo | Nombre de la Clase        | Ejemplo de Clase                         |
 | ----------------- | ------------------------- | ---------------------------------------- |
-| `.model.ts`       | Nombre directo de entidad | `Cliente`, `Oficina`, `User`             |
+| `.model.ts`       | Nombre directo de entidad (sin sufijo "Model") | `Cliente`, `Oficina`, `User`             |
 | `.service.ts`     | Entidad + `Service`       | `ClienteService`, `OficinaService`       |
 | `.controller.ts`  | Entidad + `Controller`    | `ClienteController`, `OficinaController` |
 
 ```
 ✅ Correcto en modelo:    export class Cliente { static async getAll() { ... } }
 ❌ Incorrecto en modelo:  export class ClienteRepository { ... }  // No usar sufijo "Repository"
+❌ Incorrecto en modelo:  export class ClienteModel { ... }       // No usar sufijo "Model"
 ```
 
 ### 2.4 Flujo de Datos (Controller → Service → Model)

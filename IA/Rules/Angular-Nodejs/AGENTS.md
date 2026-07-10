@@ -39,3 +39,17 @@
 ### 1.4 Respeto a Cambios Manuales
 - Si el código actual contiene modificaciones manuales del programador, **no borrarlas ni revertirlas**.
 - Trabajar siempre sobre el estado actual del archivo.
+
+### 1.5 Formato de Parámetros en Métodos
+- Cuando se cree un método, los parámetros no deben ir en formato vertical (uno por línea). Deben declararse de forma horizontal en la misma línea.
+
+```typescript
+✅ Correcto:  static async guardar(user: string, contrasenia: string, idUser: number, empresas: ISubUserEmpresa[]): Promise<any> { ... }
+❌ Incorrecto: 
+   static async guardar(
+       user: string,
+       contrasenia: string,
+       idUser: number,
+       empresas: ISubUserEmpresa[]
+   ): Promise<any> { ... }
+```
