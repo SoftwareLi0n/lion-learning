@@ -25,7 +25,7 @@ src/
 │       └── <entidad>.http            # Pruebas REST
 └── shared/              # Código compartido entre módulos
     ├── interfaces/      # Interfaces globales
-    └── middlewares/      # Middlewares (auth, etc.)
+    └── middlewares/      # Middlewares
 ```
 
 ### 2.2 Responsabilidades por Archivo
