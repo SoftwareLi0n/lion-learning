@@ -14,7 +14,7 @@
 - **Archivo**: Toda interfaz debe definirse en un archivo independiente con extensión `.interfaces.ts`.
 - **Prefijo obligatorio**: El nombre de la interfaz debe iniciar con la letra `I`.
 - **No declarar interfaces inline** dentro de archivos `.model.ts`, `.service.ts` ni `.controller.ts`.
-- **Uso de any**: Usar `any` solo cuando sea muy complejo el objeto, luego siempre usar interfaces.
+- **Uso de any**: Usar `any` solo cuando sea muy complejo el objeto (por ejemplo, en variables internas temporales), luego siempre usar interfaces. **PROHIBIDO EN RETORNOS**: El retorno de los métodos tiene prohibido retornar `any`. Siempre debe retornar de preferencia un `IResponse` (o equivalente), o el tipo de dato u objeto que más se adapte a las necesidades.
 
 ```
 ✅ Correcto:
