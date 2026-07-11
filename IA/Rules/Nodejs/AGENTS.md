@@ -30,14 +30,14 @@ src/
 
 ### 2.2 Responsabilidades por Archivo
 
-| Archivo              | Responsabilidad                                | Qué NO debe hacer                          |
-|----------------------|------------------------------------------------|--------------------------------------------|
-| `.interfaces.ts`     | Definir interfaces (`IEntidad`, `IEntidadInput`) | Lógica, consultas, validaciones           |
-| `.model.ts`          | Único punto de contacto con la base de datos    | Validaciones de negocio                    |
-| `.service.ts`        | Lógica y validaciones de negocio                | Acceso directo a BD, manejo de `req`/`res` |
-| `.controller.ts`     | Recibir peticiones HTTP, mapear datos, responder | Consultas a BD, lógica de negocio compleja |
-| `.route.ts`          | Definir rutas y aplicar middlewares             | Lógica de ningún tipo                      |
-| `.http`              | Documentar y probar endpoints REST              | —                                          |
+| Archivo          | Responsabilidad                                  | Qué NO debe hacer                          |
+| ---------------- | ------------------------------------------------ | ------------------------------------------ |
+| `.interfaces.ts` | Definir interfaces (`IEntidad`, `IEntidadInput`) | Lógica, consultas, validaciones            |
+| `.model.ts`      | Único punto de contacto con la base de datos     | Validaciones de negocio                    |
+| `.service.ts`    | Lógica y validaciones de negocio                 | Acceso directo a BD, manejo de `req`/`res` |
+| `.controller.ts` | Recibir peticiones HTTP, mapear datos, responder | Consultas a BD, lógica de negocio compleja |
+| `.route.ts`      | Definir rutas y aplicar middlewares              | Lógica de ningún tipo                      |
+| `.http`          | Documentar y probar endpoints REST               | —                                          |
 
 ### 2.3 Nomenclatura de Clases
 
@@ -75,7 +75,7 @@ const result = await clienteService.create({ ...req.body });
 
 ### 2.5 Formato de Respuestas API
 
-Toda respuesta debe usar las funciones `successResponse()` y `errorResponse()` de `shared/interfaces/api-response.interfaces.ts`:
+Toda respuesta debe usar las funciones `successResponse()` y `errorResponse()` de `shared/interfaces/response.interfaces.ts`:
 
 ```json
 {

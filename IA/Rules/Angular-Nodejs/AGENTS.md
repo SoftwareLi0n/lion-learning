@@ -44,7 +44,7 @@
 - Cuando se cree un método, los parámetros no deben ir en formato vertical (uno por línea). Deben declararse de forma horizontal en la misma línea.
 
 ```typescript
-✅ Correcto:  static async guardar(user: string, contrasenia: string, idUser: number, empresas: ISubUserEmpresa[]): Promise<any> { ... }
+✅ Correcto:  static async guardar(user: string, contrasenia: string, idUser: number, empresas: ISubUserEmpresa[]): Promise<interface> { ... }
 ❌ Incorrecto: 
    static async guardar(
        user: string,
