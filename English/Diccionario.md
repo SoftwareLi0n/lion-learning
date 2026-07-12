@@ -29,7 +29,6 @@ card: tarjeta
 new: nueva, nuevo
 credentials: credenciales
 search: buscar
-Gateway: puerta
 Broadcast: transmisión
 always: siempre
 option: opcion
@@ -44,7 +43,6 @@ table: tabla
 advertisements: anuncios
 category: categoria
 allow: permitir
-device: dispositivo
 note: nota
 screenshot: captura de pantalla
 read: leer
@@ -62,7 +60,7 @@ Excelente: Excellent
 rules: reglas
 Only: Solo
 free: libre
-
+device: dispositivo
 ## Cocina
 oil: aceite
 rice: arroz
@@ -163,7 +161,7 @@ key: llave
 settings: ajustes
 authorized: autorizado
 parameters: parámetros
-
+Gateway: puerta
 ### ropa
 sneakers: zapatillas
 socks: medias 
