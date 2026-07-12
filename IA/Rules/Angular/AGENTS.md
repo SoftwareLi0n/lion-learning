@@ -1,6 +1,6 @@
 # Reglas del Frontend (Angular)
 
-> **IMPORTANTE**: Estas reglas son específicas del proyecto frontend Angular. Las reglas generales de código (indentación, interfaces, gestor de paquetes, etc.) se encuentran en `rules/general/AGENTS.md` y también son de cumplimiento obligatorio.
+> **IMPORTANTE**: Estas reglas son específicas del proyecto frontend Angular.
 
 ---
 
@@ -67,3 +67,15 @@ Al crear vistas o páginas, se deben cumplir **obligatoriamente** los siguientes
   2. **Creación como Componentes Independientes**: Cada ventana modal debe ser creada obligatoriamente como un componente dedicado e independiente (por ejemplo, `DetalleTransferenciaDialogComponent`). Estos diálogos se deben abrir de manera programática mediante `this.dialog.open(ComponenteModal, { data: ... })` y cerrarse usando `this.dialogRef.close()`.
 - **Tablas**: Utilizar `MatTable` para la visualización de datos tabulares.
 - Siempre preferir componentes de Angular Material cuando exista uno que cubra la necesidad.
+
+---
+
+## 6. Ubicación de Servicios (Services)
+
+En esta arquitectura modular basada en features, los servicios deben ubicarse estrictamente según su alcance de uso:
+
+| Tipo de Servicio | Ubicación | Descripción |
+|------------------|-----------|-------------|
+| **Servicios de Feature** | Dentro de la feature (ej. `features/nombre-feature/services/`) | Si un servicio es de uso **exclusivo** para una feature, debe ubicarse **dentro de su propio módulo**. Esto garantiza que la feature sea 100% autocontenida y autónoma. No ubicarlos en el `core`. |
+| **Servicios de Core** | `core/services/` | Servicios globales indispensables de infraestructura (Auth, Interceptors) o servicios API singletons que son consumidos por **múltiples features** a la vez (ej. `AlertService`, `EmpresaService`). No deben depender de `shared`. |
+| **Servicios Compartidos** | `shared/services/` | Helpers y utilidades puras reutilizables (formatos de fecha, cálculos matemáticos, etc.) que no consumen endpoints ni manejan estado de negocio global. |
