@@ -61,6 +61,7 @@ rules: reglas
 Only: Solo
 free: libre
 device: dispositivo
+ready: listo
 ## Cocina
 oil: aceite
 rice: arroz
@@ -166,11 +167,12 @@ Gateway: puerta
 sneakers: zapatillas
 socks: medias 
 
-### libreria
+### estudio
 book: libre
 notebook: cuaderno 
 pen: lapicero
 pencil: lapiz
+analysis: análisis
 
 ### casa
 home: casa
@@ -187,3 +189,6 @@ angry: enojado
 
 ### numeros
 three: tres
+
+### Empresa
+company: empresa
