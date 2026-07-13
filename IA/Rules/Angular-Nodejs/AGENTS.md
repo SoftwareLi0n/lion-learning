@@ -39,6 +39,8 @@
 ### 1.4 Respeto a Cambios Manuales
 - Si el código actual contiene modificaciones manuales del programador, **no borrarlas ni revertirlas**.
 - Trabajar siempre sobre el estado actual del archivo.
+- **Verificación ante advertencias de herramientas de edición**: Si al usar una herramienta de edición (`replace_file_content` o `multi_replace_file_content`), el sistema advierte que el reemplazo se realizó con "imprecisiones" (inaccuracies) o aproximaciones, el agente DEBE ejecutar de inmediato una lectura del archivo (`view_file`) o control de cambios (`git diff`) para asegurarse de no haber revertido modificaciones manuales del programador.
+- **Respeto a nombres lógicos nuevos ante errores de compilación**: Si tras un reemplazo la compilación falla con errores del tipo "Property X does not exist", no se debe asumir automáticamente que los archivos dependientes deben adaptarse al nombre antiguo. El agente debe verificar si el nombre fue cambiado a propósito por el programador y, de ser así, restaurar y respetar el nuevo nombre lógico en todo el flujo.
 
 ### 1.5 Formato de Parámetros en Métodos
 - Cuando se cree un método, los parámetros no deben ir en formato vertical (uno por línea). Deben declararse de forma horizontal en la misma línea.
