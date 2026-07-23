@@ -8,6 +8,7 @@ message: mensaje
 ask: preguntar
 
 ## Palabras
+generate: generar
 focus: enfocar
 Target: Objetivo
 our: nuestro

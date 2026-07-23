@@ -6,7 +6,7 @@ Tarde: Lion
 
 ### YouTube
 Lunes: Grabar 
-Martes: Editar
-Miercoles: Reels
-Jueves: Idea
+Martes: Eliminar vacios y muletillas
+Miercoles: Brolls
+Jueves: Editar y subir
 Viernes: Borrador
