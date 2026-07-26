@@ -6,8 +6,10 @@ sending: enviando
 receiving: recibiendo
 message: mensaje
 ask: preguntar
+say: decir
 
 ## Palabras
+instructions: instrucciones
 generate: generar
 focus: enfocar
 Target: Objetivo
@@ -189,6 +191,7 @@ sad: triste
 angry: enojado
 
 ### numeros
+one: uno
 three: tres
 
 ### Empresa
