@@ -133,6 +133,7 @@ short: corto
 long: largo
 
 ## software
+fix: arreglar
 controller: controlador
 model: modelo
 router: enrutador
