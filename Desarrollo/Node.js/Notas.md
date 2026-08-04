@@ -8,3 +8,6 @@
 ```bash
 node --watch ./server/index.js
 ```
+
+
+Cuando usas swagger a la url le añades: swagger-ui-init.js "docs/swagger-ui-init.js" y te crea una documentacion en json

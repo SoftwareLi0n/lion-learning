@@ -5,6 +5,8 @@ send: enviar
 sending: enviando
 receiving: recibiendo
 message: mensaje
+messages: mensajes
+notificaciones: notifications
 ask: preguntar
 say: decir
 
@@ -88,12 +90,14 @@ you: vosotros
 they: ellos/ellas
 
 ## Conectores:
+
 with: con
 what: que
 yes: si
 for: para
 of: de
-the: el, la
+the: el
+the: la
 then: entonces
 now: ahora
 and: y
@@ -133,6 +137,10 @@ short: corto
 long: largo
 
 ## software
+list: listar
+updated: actualizado
+execution: ejecución
+validation: validación
 fix: arreglar
 controller: controlador
 model: modelo

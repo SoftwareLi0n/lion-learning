@@ -8,7 +8,7 @@
 
 ### 1.1 Formato
 - Indentación: **4 espacios** (no tabs).
-- Gestor de paquetes: **pnpm** exclusivamente. Nunca usar `npm` ni `yarn`.
+- Gestor de paquetes: Se puede usar **pnpm** o **npm** según sea conveniente.
 
 ### 1.2 Interfaces TypeScript
 - **Archivo**: Toda interfaz debe definirse en un archivo independiente con extensión `.interfaces.ts`.
