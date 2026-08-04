@@ -91,14 +91,12 @@ you: vosotros
 they: ellos/ellas
 
 ## Conectores:
-
+the: el, la, las, los
 with: con
 what: que
 yes: si
 for: para
 of: de
-the: el
-the: la
 then: entonces
 now: ahora
 and: y
@@ -116,6 +114,7 @@ why: ¿por que?
 can: poder
 
 ## Tiempos
+when: cuando
 yesterday: ayer
 tomorrow: mañana
 today: hoy
@@ -138,6 +137,7 @@ short: corto
 long: largo
 
 ## software
+properties: propiedades
 response: respuesta
 detalles: details
 documentation: documentación
