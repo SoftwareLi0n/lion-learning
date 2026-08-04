@@ -9,6 +9,7 @@ messages: mensajes
 notificaciones: notifications
 ask: preguntar
 say: decir
+answer: respuesta
 
 ## Palabras
 instructions: instrucciones
@@ -137,6 +138,9 @@ short: corto
 long: largo
 
 ## software
+response: respuesta
+detalles: details
+documentation: documentación
 list: listar
 updated: actualizado
 execution: ejecución
