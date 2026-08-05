@@ -1,5 +1,6 @@
 ## Comunicacion básica
 hello: hola
+good morning: buenos días
 how are you: como estás
 send: enviar
 sending: enviando
@@ -112,6 +113,7 @@ as: como
 also: tambien
 why: ¿por que?
 can: poder
+i can: puedo
 
 ## Tiempos
 when: cuando
