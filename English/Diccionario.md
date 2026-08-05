@@ -219,3 +219,16 @@ company: empresa
 word: palabra
 dictionary: diccionario
 added: agregué
+rule: regla
+system: sistema
+text: texto
+folder: carpeta
+folders: carpetas
+work: trabajar
+file: archivo
+all: todos
+completed: completé
+created: creé
+replaced: reemplacé
+removed: removido
+property: propiedad
