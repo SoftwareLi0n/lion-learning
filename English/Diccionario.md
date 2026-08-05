@@ -140,6 +140,9 @@ short: corto
 long: largo
 
 ## software
+enabled: habilitado
+issues: problemas
+public: público
 security: seguridad
 properties: propiedades
 response: respuesta
