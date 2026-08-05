@@ -13,6 +13,7 @@ say: decir
 answer: respuesta
 
 ## Palabras
+correct: correcto
 instructions: instrucciones
 generate: generar
 focus: enfocar
@@ -35,7 +36,7 @@ help: ayudar
 card: tarjeta
 new: nueva, nuevo
 credentials: credenciales
-search: buscar
+search: buscar, búsqueda
 Broadcast: transmisión
 always: siempre
 option: opcion
@@ -139,6 +140,7 @@ short: corto
 long: largo
 
 ## software
+security: seguridad
 properties: propiedades
 response: respuesta
 detalles: details
