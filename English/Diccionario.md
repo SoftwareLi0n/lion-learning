@@ -216,3 +216,6 @@ three: tres
 
 ### Empresa
 company: empresa
+word: palabra
+dictionary: diccionario
+added: agregué
