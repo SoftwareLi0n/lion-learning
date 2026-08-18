@@ -281,4 +281,21 @@ number: número
 modified: modificado
 convert: convierta
 safe: segura
+connect: conecta, conectar
+inspect: inspeccionar
+views: vistas
+relationships: relaciones
+keys: llaves
+primary: primaria, primarias
+stored procedures: procedimientos almacenados
+functions: funciones
+queries: consultas
+validate: validar
+open: abrir
+tools: herramientas
+modify: modificar
+create: crear
+models: modelos
+analyze: analizar
+
 
