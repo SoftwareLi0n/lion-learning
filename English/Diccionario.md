@@ -11,6 +11,8 @@ notificaciones: notifications
 ask: preguntar
 say: decir
 answer: respuesta
+thank you very much: muchas gracias
+please: por favor
 
 ## Palabras
 correct: correcto
@@ -218,7 +220,7 @@ three: tres
 company: empresa
 word: palabra
 dictionary: diccionario
-added: agregué
+added: agregué, agregado
 rule: regla
 system: sistema
 text: texto
@@ -226,9 +228,57 @@ folder: carpeta
 folders: carpetas
 work: trabajar
 file: archivo
-all: todos
+all: todos, todas
 completed: completé
 created: creé
 replaced: reemplacé
 removed: removido
 property: propiedad
+will verify: verificará
+deploy: desplegar
+private: privado
+connection: conexión
+managing: gestionando
+data: datos
+constants: constantes
+values: valores
+executable: ejecutable
+here: aquí
+summary: resumen
+example: ejemplo
+we will create: crearemos
+was executing: ejecutaba
+automatically: automáticamente
+flag: bandera
+condition: condición
+right: derecha
+horizontally: horizontalmente
+design: diseño
+left: izquierda
+link: enlace
+observations: observaciones
+corrected: corregido
+first: primero
+complete: completo
+we work: trabajamos
+attributes: atributos
+style: estilo
+line: línea
+margins: márgenes
+all: todas
+classes: clases
+record: registro
+migrated: migrado
+changes: cambios
+configured: configurada
+retrieving: recuperando
+compiled: compilado
+successfully: exitosamente
+changed: cambió
+second: segundo
+status: estado
+number: número
+modified: modificado
+convert: convierta
+safe: segura
+
