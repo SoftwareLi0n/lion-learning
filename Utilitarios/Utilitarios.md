@@ -7,7 +7,8 @@
 ## Web
 * https://www.netlify.com/: permite subir web de manera rápida.
 * https://lovable.dev: web que te genera dieños con ia
-
+* https://www.webshare.io/: 10 proxys gratis
+* iproyal.com: proxy con ip residencial (de paga)
 ## Desarrollo
 * **Azure Data Studio:** Sirve para gestionar db de mysql de una forma muy estética.
 * **Codeium:** Extensión alternativa de copilot

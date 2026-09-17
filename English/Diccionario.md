@@ -1,7 +1,7 @@
-## Comunicacion básica
+## Comunicacion bÃ¡sica
 hello: hola
-good morning: buenos días
-how are you: como estás
+good morning: buenos dÃ­as
+how are you: como estÃ¡s
 send: enviar
 sending: enviando
 receiving: recibiendo
@@ -38,8 +38,8 @@ help: ayudar
 card: tarjeta
 new: nueva, nuevo
 credentials: credenciales
-search: buscar, búsqueda
-Broadcast: transmisión
+search: buscar, bÃºsqueda
+Broadcast: transmisiÃ³n
 always: siempre
 option: opcion
 Write: Escribir
@@ -56,12 +56,12 @@ allow: permitir
 note: nota
 screenshot: captura de pantalla
 read: leer
-information: información
+information: informaciÃ³n
 see: ver
 task: tarea
 box: caja
-Method: Método
-common: común
+Method: MÃ©todo
+common: comÃºn
 easy: facil
 manage: administrar
 privacy: privacidad
@@ -86,8 +86,8 @@ face: cara
 
 ## Pronombres
 i: yo
-you: tú
-he: él
+you: tÃº
+he: Ã©l
 she: ella
 it: eso
 we: nosotros
@@ -108,20 +108,20 @@ is: es
 a: un
 from: de
 in: en
-this: esta, esto
+this: esta, esto, este
 your: tu
 by: por
-how: cómo
+how: cÃ³mo
 as: como
 also: tambien
-why: ¿por que?
+why: Â¿por que?
 can: poder
 i can: puedo
 
 ## Tiempos
 when: cuando
 yesterday: ayer
-tomorrow: mañana
+tomorrow: maÃ±ana
 today: hoy
 time: tiempo
 hour: hora
@@ -130,63 +130,63 @@ wait: esperar
 week: semana
 day: dia
 month: mes
-year: año
+year: aÃ±o
 after: despues
 before: antes
 
-## Tamaños
+## TamaÃ±os
 big: grande
 tall: alto
-small: pequeño
+small: pequeÃ±o
 short: corto
 long: largo
 
 ## software
 enabled: habilitado
 issues: problemas
-public: público
+public: pÃºblico
 security: seguridad
 properties: propiedades
 response: respuesta
 detalles: details
-documentation: documentación
+documentation: documentaciÃ³n
 list: listar
 updated: actualizado
-execution: ejecución
-validation: validación
+execution: ejecuciÃ³n
+validation: validaciÃ³n
 fix: arreglar
 controller: controlador
 model: modelo
 router: enrutador
 route: ruta
 service: servicio
-features: características
+features: caracterÃ­sticas
 shared: compartida, compartido
 providers: proveedores
 provider: proveedor
-config: configuración
+config: configuraciÃ³n
 component: componente
 database: base de datos
 user: usuario
 interface: interfaz
 packages: paquetes
-installation: instalación
+installation: instalaciÃ³n
 project: proyecto
 development: desarrollo
-code: código
+code: cÃ³digo
 events: eventos
 dashboard: tablero
 build: construir
 release: lanzamientos
 close: cerrar
 closed: cerrado
-button: botón
-login: iniciar sesión
+button: botÃ³n
+login: iniciar sesiÃ³n
 register: registra
 key: llave
 settings: ajustes
 authorized: autorizado
-parameters: parámetros
+parameters: parÃ¡metros
 Gateway: puerta
 ### ropa
 sneakers: zapatillas
@@ -197,7 +197,7 @@ book: libre
 notebook: cuaderno 
 pen: lapicero
 pencil: lapiz
-analysis: análisis
+analysis: anÃ¡lisis
 
 ### casa
 home: casa
@@ -220,7 +220,7 @@ three: tres
 company: empresa
 word: palabra
 dictionary: diccionario
-added: agregué, agregado
+added: agreguÃ©, agregado
 rule: regla
 system: sistema
 text: texto
@@ -229,31 +229,31 @@ folders: carpetas
 work: trabajar
 file: archivo
 all: todos, todas
-completed: completé
-created: creé
-replaced: reemplacé
+completed: completÃ©
+created: creÃ©
+replaced: reemplacÃ©
 removed: removido
 property: propiedad
-will verify: verificará
+will verify: verificarÃ¡
 deploy: desplegar
 private: privado
-connection: conexión
+connection: conexiÃ³n
 managing: gestionando
 data: datos
 constants: constantes
 values: valores
 executable: ejecutable
-here: aquí
+here: aquÃ­
 summary: resumen
 example: ejemplo
 we will create: crearemos
 was executing: ejecutaba
-automatically: automáticamente
+automatically: automÃ¡ticamente
 flag: bandera
-condition: condición
+condition: condiciÃ³n
 right: derecha
 horizontally: horizontalmente
-design: diseño
+design: diseÃ±o
 left: izquierda
 link: enlace
 observations: observaciones
@@ -263,8 +263,8 @@ complete: completo
 we work: trabajamos
 attributes: atributos
 style: estilo
-line: línea
-margins: márgenes
+line: lÃ­nea
+margins: mÃ¡rgenes
 all: todas
 classes: clases
 record: registro
@@ -274,10 +274,10 @@ configured: configurada
 retrieving: recuperando
 compiled: compilado
 successfully: exitosamente
-changed: cambió
+changed: cambiÃ³
 second: segundo
 status: estado
-number: número
+number: nÃºmero
 modified: modificado
 convert: convierta
 safe: segura
@@ -297,5 +297,75 @@ modify: modificar
 create: crear
 models: modelos
 analyze: analizar
+words: palabras
+previously: previamente
+but: pero
+thanks: gracias
+sorry: discÃºlpame
+language: idioma
+completed: completÃ³
+save: guarda
+do: hacer
+breakfast: desayuno
+lunch: almuerzo
+dinner: cena
+help: ayude
+next: siguiente
+inside: dentro
+application: aplicaciÃ³n
+following: siguientes
+proceed: procede
+question: pregunta
+workflow: flujo de trabajo
+perfect: perfecto
+two: dos
+four: cuatro
+business: negocio
+selection: selecciÃ³n
+choose: elige
+billing: facturaciÃ³n
+technical: tÃ©cnico
+level: nivel
+you have: tienes
+called: llamado
+unique: Ãºnico
+successful: exitosa
+operation: operaciÃ³n
+sale: venta
+we say: decimos
+apply: aplicar
+starts: empieza
+i am: estoy
+skill: habilidad
 
 
+
+
+
+
+amount: importe, monto
+then: luego
+function: función
+verified: verificó
+compiled: compiló
+errors: errores
+without: sin
+
+requested: solicitadas, solicitado
+existing: existentes, existente
+
+architecture: arquitectura
+has: tiene
+space: espacio
+empty: vacío
+guides: guías
+
+following: siguiendo
+each: cada
+grouped: agrupé
+review: revisa
+was performed: se realizó
+disk: disco
+
+observation: observación
+principle: principio
