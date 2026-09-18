@@ -25,3 +25,14 @@ C:\ProgramData\AnyDesk\service.conf
 ### Ver el calor del procesador
 hwmonitor
 https://www.cpuid.com/softwares/hwmonitor.html
+
+
+## Scraping
+URL para obtener datos de RUC 
+https://ww1.sunat.gob.pe/ol-ti-itfisdenreg/itfisdenreg.htm?accion=obtenerDatosRuc&nroRuc=20100130204 
+
+URL para obtener datos de DNI 
+https://ww1.sunat.gob.pe/ol-ti-itfisdenreg/itfisdenreg.htm?accion=obtenerDatosDni&numDocumento=06256217 
+
+URL para obtener datos de tipo de cambio del dia 
+https://www.sunat.gob.pe/a/txt/tipoCambio.txt
