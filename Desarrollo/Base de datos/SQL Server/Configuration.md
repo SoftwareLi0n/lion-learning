@@ -37,3 +37,22 @@ GO
 GRANT VIEW DEFINITION TO [mcp_user];
 GO
 ```
+
+Create user with only constrains read (onle store procedure)
+```
+-- 1. Create the Login
+CREATE LOGIN MiRecibo_User WITH PASSWORD = 'password', CHECK_POLICY = ON, CHECK_EXPIRATION = OFF;
+
+-- 2. Create the User in the database específica
+USE MiRecibo;
+CREATE USER MiRecibo_User FOR LOGIN MiRecibo_User;
+
+-- Instead of db_datareader/db_datawriter:
+GRANT EXECUTE TO MiRecibo_User;
+
+-- 4. 🔑 DENEGAR the vista of all the databases
+USE master;
+DENY VIEW ANY DATABASE TO MiRecibo_User;
+
+ALTER LOGIN MiRecibo_User WITH DEFAULT_DATABASE = MiRecibo;
+```
